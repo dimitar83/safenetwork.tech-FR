@@ -7,11 +7,11 @@ export default {
         'url': '/'
       },
       {
-        'name': 'How It Works',
+        'name': 'Comment ça Fonctionne',
         'url': '/how-it-works/'
       },
       {
-        'name': 'Press Kit',
+        'name': 'Dossier de Presse',
         'url': '/press-kit/'
       },
       {
@@ -19,11 +19,11 @@ export default {
         'url': '/safecoin/'
       },
       {
-        'name': 'Get Involved',
+        'name': 'Être Impliqué',
         'url': '/get-involved/'
       },
       {
-        'name': 'FAQs',
+        'name': 'FAQ',
         'url': '/faq/'
       },
       {
@@ -31,37 +31,37 @@ export default {
         'url': 'https://medium.com/safenetwork'
       },
       {
-        'name': 'Roadmap',
+        'name': 'Feuille de route',
         'url': '/roadmap/'
       },
       {
-        'name': 'Events',
+        'name': 'Événements',
         'url': 'https://safenetforum.org/t/safe-network-upcoming-events/29029'
       }
     ]
   },
   'community': {
-    'name': 'Community',
+    'name': 'Communauté',
     'links': [
       {
-        'name': 'SAFE Network Forum',
+        'name': 'Forum du SAFE Network',
         'url': 'https://safenetforum.org/'
       },
       {
-        'name': 'Developer Forum',
+        'name': 'Forum des développeurs',
         'url': 'https://forum.safedev.org/'
       }
     ]
   },
   'company': {
-    'name': 'Company',
+    'name': 'Compagnie',
     'links': [
       {
-        'name': 'About MaidSafe',
+        'name': 'À propos de MaidSafe',
         'url': '/about-maidsafe'
       },
       {
-        'name': 'Website',
+        'name': 'Site Internet',
         'url': 'https://maidsafe.net/'
       },
       {
@@ -69,13 +69,13 @@ export default {
         'url': 'https://maidsafe.net/contact'
       },
       {
-        'name': 'Careers',
+        'name': 'Carrières',
         'url': 'https://maidsafe.net/careers'
       }
     ]
   },
   'developers': {
-    'name': 'Developers',
+    'name': 'Développeurs',
     'links': [
       {
         'name': 'Developer Hub',
@@ -88,24 +88,24 @@ export default {
     ]
   },
   'legal': {
-    'name': 'Legal',
+    'name': 'Légal',
     'links': [
       {
-        'name': 'Privacy Policy',
+        'name': 'Politique de confidentialité',
         'url': '/privacy'
       },
       {
-        'name': 'Cookie Policy',
+        'name': 'Politique de Cookies',
         'url': '/cookies'
       },
       {
-        'name': 'Credits',
+        'name': 'Crédits',
         'url': 'https://maidsafe.net/credits'
       }
     ]
   },
   'newsletter': {
-    'name': 'Newsletter'
+    'name': 'Bulletin'
   },
   'social': {
     'name': 'Social',
