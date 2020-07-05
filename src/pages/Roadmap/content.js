@@ -1,28 +1,28 @@
 export default {
   banner: {
-    pageTitle: 'The ~~Im~~Possible Network',
-    pageDesc: `14 years of research and development is coming to fruition as we put together the final building blocks of what some said was impossible: Secure Access For Everyone.`,
+    pageTitle: 'Le réseau ~~Im~~Possible',
+    pageDesc: `14 ans de recherche et développement se concrétisent alors que nous rassemblons les derniers éléments de base de ce que certains ont dit impossible: un accès sécurisé pour tous.`,
     latestUpdate: {
-      overline: 'Latest Update',
-      date: 'March 26, 2020',
-      title: 'Baby Fleming iteration 3',
-      para: `The Baby Fleming release is about iterating from a single vault network into a multiple vaults (single-section) network. Iteration 3 has been updated to use the latest version of the Quinn library (via quic-p2p).`,
+      overline: 'DERNIÈRE MISE',
+      date: 'À JOUR 29 août 2019',
+      title: 'Voûtes de phase 1',
+      para: `La dernière pièce du puzzle est terminée et nous avons maintenant la CLI SAFE, les bibliothèques client SAFE, le coffre-fort SAFE et le navigateur SAFE.`,
        CTA: {
-         name: 'SAFE Network Forum',
+         name: 'Forum du réseau SAFE',
          url: 'https://safenetforum.org/t/safe-network-dev-update-march-26-2020/31360'
        }
     }
   },
   subscribe: {
-    title: 'Subscribe for updates:'
+    title: 'Abonnez-vous pour les mises à jour:'
   },
   releases: {
     release1: {
-      overline: 'Live Now',
-      title: 'Baby Fleming Network',
+      overline: 'VIS MAINTENANT',
+      title: 'Voûtes de phase 1',
       para:[
-        `From a user perspective, the exact same type of operations and use cases as Vaults Phase 1 are being supported by Baby Fleming, i.e. Test Safecoin, wallets, files, NRS names, SAFE sites, etc.`,
-        'We’ve set up a [public shared section](https://safenetforum.org/t/baby-fleming-public-shared-section/31377) for you to play with. You can also set up your own local network. See the [CLI User Guide](https://github.com/maidsafe/safe-api/blob/master/safe-cli/README.md#download) for full instructions.'
+        `Cette version de Phase 1 Vault est principalement destinée à présenter les fonctionnalités du réseau aux consommateurs (personnes utilisant le réseau pour parcourir, partager des données, etc.) et aux créateurs (développeurs ou éditeurs de contenu). Il permet aux utilisateurs de tester des fonctionnalités telles que SAFE CLI et SAFE Client Libs, ainsi que d’introduire les nouveaux types de données.`,
+        'C’est simple à utiliser. Téléchargez simplement un binaire Vault qui s’exécutera localement sur votre ordinateur. Les détails et les liens peuvent être trouvés dans cet article du forum.'
       ],
       // accordion: {
       //   header: [
@@ -35,158 +35,158 @@ export default {
       // }
     },
     release2: {
-      overline: 'Upcoming Milestone',
-      title: 'SAFE Fleming Network',
-      para: ['The next major milestone for the SAFE Network. Whilst the Baby Fleming Network will continue to function, this will be a standalone Network that will enable individuals to run Vaults - decentralised storage from home computers. The release of Fleming will be notable for many reasons, not least the fact that with data storage, the Network will now also contain Test Safecoin.'],
+      overline: 'Jalon à venir',
+      title: 'Fleming SAFE Network',
+      para: ['La prochaine étape importante pour le réseau SAFE. Alors que le réseau de coffre-fort partagé continuera de fonctionner, il s’agira d’un réseau autonome qui permettra aux particuliers d’exécuter des coffres-forts - stockage décentralisé à partir d’ordinateurs personnels. La sortie de Fleming sera notable pour de nombreuses raisons, notamment le fait qu’avec le stockage de données, le réseau contiendra désormais également Test Safecoin.'],
       accordion: {
         header: [
-          'Fleming Feature',
-          'Description',
-          'Status'
+          'Fonction Fleming',
+          'La description',
+          'Statut'
         ],
         items: [
           {
-            feature: 'Self-Authentication',
-            desc: 'The ability to log into a decentralised network without the permission or existence of a third party',
-            status: 'Complete',
+            feature: 'L’auto-authentification',
+            desc: 'La possibilité de se connecter à un réseau décentralisé sans l’autorisation ou l’existence d’un tiers',
+            status: 'Achevé',
             para: [
-              'MaidSafe invented the technology that lets someone log into a decentralised network securely without requiring the involvement of a third party. The Shared Vault Network is the only place in the world today that you can see this in action.'
+              'MaidSafe a inventé la technologie qui permet à une personne de se connecter à un réseau décentralisé en toute sécurité sans nécessiter l’intervention d’un tiers. Le réseau Shared Vault est le seul endroit au monde où vous pouvez le voir en action.'
             ],
             // CTA: {
             //   name: 'Read More',
             //   url: 'https://safenetwork.tech/roadmap/#self-authentication'
             // },
           }, {
-            feature: 'Self-Encryption',
-            desc: 'Data is encrypted on your computer before being stored on the Network: no keys or passwords ever leave your machine',
-            status: 'Complete',
+            feature: 'Auto-cryptage',
+            desc: 'Les données sont cryptées sur votre ordinateur avant d’être stockées sur le réseau: aucune clé ni mot de passe ne quitte votre machine',
+            status: 'Achevé',
             para: [
-              'Invented by MaidSafe, this is the process by which any file to be stored in the Network is first broken into chunks, hashed, and then encrypted. These chunks are then themselves encrypted using the hash of another chunk from the same file.'
+              'Inventé par MaidSafe, c’est le processus par lequel tout fichier à stocker dans le réseau est d’abord divisé en morceaux, haché, puis crypté. Ces morceaux sont ensuite eux-mêmes chiffrés à l’aide du hachage d’un autre morceau du même fichier.'
             ],
             video: {
               url: 'https://s3.eu-west-2.amazonaws.com/ms-marketing/website-videos/Self+Encryption+on+the+SAFE+Network.mp4',
-              caption: 'Self-Encryption explained'
+              caption: 'Explication de l’auto-chiffrement'
             }
           }, {
-            feature: 'Disjoint Sections',
-            desc: 'Otherwise known as Sharding, this allows the Network to scale by splitting responsibilities for specific Network functions.',
-            status: 'Complete',
+            feature: 'Sections disjointes',
+            desc: 'Autrement connu sous le nom de Sharding, cela permet au réseau d’évoluer en répartissant les responsabilités pour des fonctions spécifiques du réseau.',
+            status: 'Achevé',
             para: [
-              'Ensures that the Network can scale by managing the responsibilities and locations of each node without requiring any human intervention. This also acts as a security measure to ensure that an attacker cannot choose their location or responsibilities.'
+              'Garantit que le réseau peut évoluer en gérant les responsabilités et les emplacements de chaque nœud sans nécessiter aucune intervention humaine. Cela agit également comme une mesure de sécurité pour garantir qu’un attaquant ne puisse pas choisir son emplacement ou ses responsabilités.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Lire la suite',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-6-disjoint-sections/28530'
             },
           }, {
-            feature: 'Message Relay',
-            desc: 'Ensures a message can be sent between nodes in different Disjoint Sections',
-            status: 'Complete',
+            feature: 'Relais de messages',
+            desc: 'Garantit qu’un message peut être envoyé entre les nœuds dans différentes sections disjointes',
+            status: 'Achevé',
             para: [
-              'Ensures that a message can be sent between nodes in different Disjoint Sections. In this early iteration, each message contains signatures of the members of the Disjoint Sections but does not yet verify the signatures themselves.'
+              'Garantit qu’un message peut être envoyé entre des nœuds dans différentes sections disjointes. Dans cette première itération, chaque message contient les signatures des membres des sections disjointes mais ne vérifie pas encore les signatures elles-mêmes.'
             ],
           },
           {
             feature: 'PARSEC',
-            desc: 'Asynchronous consensus algorithm',
-            status: 'Complete',
+            desc: 'Algorithme de consensus asynchrone',
+            status: 'Achevé',
             para: [
-              'Ensures that a global decentralised, permissionless Network can reach agreement about events that are permitted and the order in which they are to be recorded. A DAG-based algorithm that achieves the highest standard of security possibile, invented by MaidSafe in such a way that it ensures it is mathematically certain that every part of the Network will reach eventual agreement. In Fleming, we’ll be releasing a highly asynchronous version of PARSEC, with full asynchronicity to come later.'
+              'Garantit qu’un réseau mondial décentralisé et sans autorisation peut parvenir à un accord sur les événements autorisés et l’ordre dans lequel ils doivent être enregistrés. Un algorithme basé sur DAG qui atteint le plus haut niveau de sécurité possible, inventé par MaidSafe de manière à garantir qu’il est mathématiquement certain que chaque partie du réseau parviendra à un accord final. À Fleming, nous publierons une version hautement asynchrone de PARSEC, avec une asynchronicité complète à venir plus tard.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Lire la suite',
               url: 'https://hub.safedev.org/parsec/'
             },
           }, {
-            feature: 'Node Ageing',
-            desc: 'A decentralised system for ranking the behaviour, performance and abilities of nodes on the Network that requires no human intervention.',
-            status: 'Complete',
+            feature: 'Vieillissement des nœuds',
+            desc: 'Un système décentralisé pour classer le comportement, les performances et les capacités des nœuds sur le réseau qui ne nécessite aucune intervention humaine.',
+            status: 'Achevé',
             para: [
-              'Each node on the SAFE Network is given an age by the Network itself. The node age increments every time that a node moves between Disjoint Sections, with only the most senior (Elders) entitled to vote during the PARSEC consensus algorithm.',
-              'Dig into the detail in the RFC, and [join the discussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) on the forum.'
+              'Chaque nœud du réseau SAFE se voit attribuer un âge par le réseau lui-même. L’âge du nœud augmente chaque fois qu’un nœud se déplace entre les sections disjointes, seuls les plus âgés (aînés) ayant le droit de voter pendant l’algorithme de consensus PARSEC.',
+              'Plongez dans les détails du RFC et [rejoignez la discussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) sur le forum.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lire le RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md'
             },
           }, {
-            feature: 'Secure Message Delivery',
-            desc: 'Trusted communication between nodes - messages with authenticated source',
-            status: 'Complete',
+            feature: 'Livraison sécurisée des messages',
+            desc: 'Communication sécurisée entre les nœuds - messages avec source authentifiée',
+            status: 'Achevé',
             para: [
-              'Ensures messages are sent and signed in such a way that lets nodes rely on the contents of each message despite having no previous relationship with the sender. This solves a problem faced by many existing blockchain-based projects and is essential when you have a Network that will autonomously move nodes around as required.'
+              'Garantit que les messages sont envoyés et signés de manière à permettre aux nœuds de s’appuyer sur le contenu de chaque message malgré l’absence de relation préalable avec l’expéditeur. Cela résout un problème rencontré par de nombreux projets existants basés sur la blockchain et est essentiel lorsque vous avez un réseau qui déplacera de manière autonome les nœuds selon les besoins.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lire le RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0056-secure-message-delivery/0056-secure-message-delivery.md'
             },
           }, {
-            feature: 'Reliable Message Delivery',
-            desc: 'Communication guaranteeing the successful delivery of messages.',
-            status: 'Complete',
+            feature: 'Livraison fiable des messages',
+            desc: 'Communication garantissant la bonne transmission des messages.',
+            status: 'Achevé',
             para: [
-              'Ensures that all sent messages will be successfully delivered to their destinations, even when some nodes responsible for the delivery are failing.'
+              'Garantit que tous les messages envoyés seront livrés avec succès vers leurs destinations, même lorsque certains nœuds responsables de la remise échouent.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lire le RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0058-reliable-message-delivery/0058-reliable-message-delivery.md'
             },
           }, {
             feature: 'QUIC-P2P',
-            desc: 'The low-level language which users connecting to SAFE will use for all network communications',
-            status: 'Complete',
+            desc: 'Le langage de bas niveau que les utilisateurs se connectant à SAFE utiliseront pour toutes les communications réseau',
+            status: 'Achevé',
             para: [
-              'Software that lets computers communicate in an encrypted manner on the SAFE Network. The software provides the infrastructure for messages to travel whilst the Routing layer of the Network sets the rules about which directions those messages can travel in.'
+              'Logiciel qui permet aux ordinateurs de communiquer de manière cryptée sur le réseau SAFE. Le logiciel fournit l’infrastructure permettant aux messages de voyager tandis que la couche de routage du réseau définit les règles dans lesquelles les messages peuvent voyager.'
             ],
           }, {
-            feature: 'Malice Detection',
-            desc: 'Preventing malicious nodes subverting the consensus algorithm, PARSEC',
-            status: 'Complete',
+            feature: 'Détection de malice',
+            desc: 'Empêcher les nœuds malveillants de renverser l’algorithme de consensus, PARSEC',
+            status: 'Achevé',
             para: [
-              'The way that nodes identify malicious nodes that are damaging the Network within a Disjoint Section and the mechanism by which they agree to eject that node, or mitigate the risk.'
+              'La façon dont les nœuds identifient les nœuds malveillants qui endommagent le réseau au sein d’une section disjointe et le mécanisme par lequel ils acceptent d’éjecter ce nœud ou d’atténuer le risque.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lire le RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0050-malice_in_parsec/0050-malice_in_parsec.md'
             }
           }, {
-            feature: 'Test Safecoin & Wallet',
-            desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
-            status: 'Complete',
+            feature: 'Testez Safecoin & Wallet',
+            desc: 'Permettre au réseau de facturer et à un utilisateur d’envoyer et de recevoir des paiements vers un portefeuille, en unités appelées Test Safecoins',
+            status: 'Achevé',
             para: [
-              'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
+              'Safecoin est le mécanisme d’incitation qui encourage les individus à fournir les ressources informatiques dont le réseau a besoin: stockage, large bande et ressources CPU.',
             ]
           }, {
-            feature: 'Farming',
-            desc: 'The process of providing resource and receiving Safecoin in return',
-            status: 'Development',
+            feature: 'Agriculture',
+            desc: 'Le processus de fourniture de ressources et de réception de Safecoin en retour',
+            status: 'Développement',
             para: [
-              'Individuals who choose to supply the resources that the Network requires have the opportunity to be rewarded with Safecoin. This work ensures that the Network rewards those who provide it with valuable resources.',
+              'Les personnes qui choisissent de fournir les ressources dont le réseau a besoin ont la possibilité d’être récompensées par Safecoin. Ce travail garantit que le Réseau récompense ceux qui lui fournissent des ressources précieuses.',
             ],
           }, {
-            feature: 'Vaults From Home',
-            desc: 'The ability for anyone to download software and run Vaults from home, creating decentralised storage for the Network',
-            status: 'Development',
+            feature: 'Voûtes de la maison',
+            desc: 'La possibilité pour n’importe qui de télécharger des logiciels et d’exécuter des coffres-forts à partir de la maison, créant un stockage décentralisé pour le réseau',
+            status: 'Développement',
             para: [
-              'Decentralised data storage is a key element of the SAFE Network. This release will enable nodes to participate regardless of the resources they offer.'
+              'Le stockage décentralisé des données est un élément clé du réseau SAFE. Cette version permettra aux nœuds de participer quelles que soient les ressources qu’ils offrent.'
             ],
           }, {
-            feature: 'Published and Unpublished Data Types',
-            desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
-            status: 'Complete',
+            feature: 'Types de données publiés et non publiés',
+            desc: 'Autoriser le réseau à stocker des données publiées et non publiées via les types AppendOnlyData ou MutableData',
+            status: 'Achevé',
             para: [
-              'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
+              'Les données publiées se réfèrent au contenu qui est publié (rendu disponible) pour tout le monde, comme les sites Web, les blogs ou les articles de recherche. Pour un tel contenu public, il devient important de conserver un historique des changements. L’historique ne doit pas être altéré et les données publiées doivent rester éternelles. Les données non publiées sont des données dont la publication n’est pas souhaitée, telles que les données personnelles ou les données d’organisations stockées sur le réseau.'
             ],
             //CTA: {
               //name: 'Read the RFC',
               //url: 'https://github.com/maidsafe/rfcs/blob/master/text/0054-published-and-unpublished-mutable-data/0054-published-and-unpublished-mutable-data.md'
             //},
           }, {
-            feature: 'Unpublished ImmutableData Data Type',
-            desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
-            status: 'Complete',
+            feature: 'Type de données ImmutableData non publié',
+            desc: 'Améliorez ImmutableData pour en faire un non publié ou publié, à la différence que le non publié peut être supprimé',
+            status: 'Achevé',
             para: [
-              'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
+              'Il existe de nombreuses fois où un utilisateur devra créer des données immuables pour stocker du contenu privé. Tant que ce contenu n’est pas publié (mis à la disposition de tiers), il ne pourra être supprimé que par le propriétaire des données.'
             ],
             //CTA: {
               //name: 'Read the RFC',
@@ -197,38 +197,38 @@ export default {
       }
     },
     release3: {
-      overline: 'Next Up',
-      title: 'SAFE Maxwell Network',
-      para: ['The release of SAFE Maxwell builds on top of Fleming and enables the network to upgrade, improves security and sets the ground work for switching Test Safecoin to real Safecoin.'],
+      overline: 'SUIVANT',
+      title: 'SAFE Network Maxwell',
+      para: ['La sortie de SAFE Maxwell s’appuie sur Fleming et permet au réseau de se mettre à niveau, améliore la sécurité et prépare le terrain pour passer le test SAFE Coin à un véritable SAFEcoin.'],
       accordion: {
         header: [
-          'Maxwell Feature',
-          'Description',
-          'Status'
+          'Fonction Maxwell',
+          'La description',
+          'Statut'
         ],
         items: [
           {
-            feature: 'Spam Handling',
-            desc: 'Ability to handle spam attacks',
-            status: 'Concept',
+            feature: 'Traitement du spam',
+            desc: 'Capacité à gérer les attaques de spam',
+            status: 'Idée',
             para: [
-              'Spam includes nodes attempting to carry out activities that they shouldn’t or valid activities at a scale that is intended to choke the Network. The Network should be able to withstand a reasonable volume of such attacks.'
+              'Le spam comprend les nœuds tentant d’exécuter des activités qu’ils ne devraient pas ou des activités valides à une échelle destinée à étouffer le réseau. Le réseau devrait pouvoir résister à un volume raisonnable de telles attaques.'
             ],
           }, {
-            feature: 'Identity Management',
-            desc: 'Ability for users to create and manage multiple identities for use on the network',
-            status: 'Concept',
+            feature: 'Gestion d’identité',
+            desc: 'Possibilité pour les utilisateurs de créer et de gérer plusieurs identités à utiliser sur le réseau',
+            status: 'Idée',
             para: [
-              'Users will be able to create multiple identities in the Network. Each identity can be used as required by the User and each should be independent unless the User explicitly wants to connect them. This helps protect identity and privacy.'
+              'Les utilisateurs pourront créer plusieurs identités dans le réseau. Chaque identité peut être utilisée selon les besoins de l’utilisateur et chacune doit être indépendante, sauf si l’utilisateur souhaite explicitement les connecter. Cela permet de protéger l’identité et la confidentialité.'
             ],
           },
           {
-            feature: 'Upgrades',
-            desc: 'The ability for the Network to upgrade itself, with no harm caused',
-            status: 'Concept',
+            feature: 'Mises à jour',
+            desc: 'La capacité du réseau à se mettre à niveau sans causer de dommages',
+            status: 'Idée',
             para: [
-              'The Network will have the ability to upgrade itself in order to allow features and improvements to disseminate throughout the Network. The upgrades must be done in a way such that they don’t cause harm to the Network.',
-              'This is an important stage in the evolution of the Network as it means that new software can then continue to be rolled out onto the existing Network without disrupting the existing functionality.'
+              'Le réseau aura la capacité de se mettre à niveau afin de permettre aux fonctionnalités et aux améliorations de se diffuser à travers le réseau. Les mises à niveau doivent être effectuées de manière à ne pas nuire au réseau.',
+              'Il s’agit d’une étape importante dans l’évolution du réseau car elle signifie que de nouveaux logiciels peuvent ensuite être déployés sur le réseau existant sans perturber les fonctionnalités existantes.'
             ],
             CTA: {
               name: 'Follow the Discussion',
@@ -252,21 +252,21 @@ export default {
           {
             feature: 'Secure Enclaves',
             desc: 'A trusted executable environment within existing computers',
-            status: 'Concept',
+            status: 'Idée',
             para: [
               'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
             ],
           }, {
             feature: 'Network Growth',
             desc: 'Allow the network to grow and scale in a sustainable way',
-            status: 'Concept',
+            status: 'Idée',
             para: [
               'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
             ],
           }, {
             feature: 'Network Restarts',
             desc: 'Ability for the network to restart after a catastrophe',
-            status: 'Concept',
+            status: 'Idée',
             para: [
               'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
             ],
