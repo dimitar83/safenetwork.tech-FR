@@ -239,61 +239,61 @@ export default {
       }
     },
     release4: {
-      overline: 'Coming Soon',
-      title: 'Upcoming Network Features',
-      para: ['The following list represents network work that remains to be completed. The order should not be seen as fixed in any way as in certain cases, work will be carried out in parallel by different teams.'],
+      overline: 'BIENTÔT DISPONIBLE',
+      title: 'Fonctionnalités réseau à venir',
+      para: ['La liste suivante représente le travail de réseau qui reste à terminer. La commande ne doit en aucun cas être considérée comme fixe car dans certains cas, les travaux seront effectués en parallèle par différentes équipes.'],
       accordion: {
         header: [
-          'Feature',
-          'Description',
-          'Status'
+          'Fonctionnalité',
+          'La description',
+          'Statut'
         ],
         items: [
           {
-            feature: 'Secure Enclaves',
-            desc: 'A trusted executable environment within existing computers',
+            feature: 'Enclaves sécurisées',
+            desc: 'Un environnement exécutable fiable dans les ordinateurs existants',
             status: 'Idée',
             para: [
-              'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
+              'Crée une zone au sein du matériel d’un ordinateur qui est un environnement sécurisé et fiable qui est séparé du reste de l’ordinateur. Il fonctionne comme un mini-ordinateur à l’intérieur des ordinateurs existants qui ne peuvent pas être ouverts.'
             ],
           }, {
-            feature: 'Network Growth',
-            desc: 'Allow the network to grow and scale in a sustainable way',
+            feature: 'Croissance du réseau',
+            desc: 'Permettre au réseau de croître et d’évoluer de manière durable',
             status: 'Idée',
             para: [
-              'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
+              'Le réseau permet une croissance contrôlée pour garantir que la majorité des décideurs sont des nœuds sains qui suivent les règles du réseau. Cette croissance devrait être durable afin d’éviter des fusions inutiles entre les sections.'
             ],
           }, {
-            feature: 'Network Restarts',
-            desc: 'Ability for the network to restart after a catastrophe',
+            feature: 'Redémarrages du réseau',
+            desc: 'Possibilité pour le réseau de redémarrer après une catastrophe',
             status: 'Idée',
             para: [
-              'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
+              'En cas de panne catastrophique, le réseau devrait pouvoir se reconstruire car il maintient l’intégrité des données essentielles (telles que l’historique de la chaîne), ce qui lui permet de recommencer à fonctionner sur la base du dernier état connu du réseau.'
             ],
           }, {
-            feature: 'RDF Support',
-            desc: 'The Network will have native support for RDF, enabling data to be compatible with the Semantic Web',
+            feature: 'Prise en charge RDF',
+            desc: 'Le réseau aura un support natif pour RDF, permettant aux données d’être compatibles avec le Web sémantique',
             status: 'RFC',
             para: [
-              'Ensures that data on the SAFE Network is stored in such a way that the format can be understood by other Semantic Web projects, such as Solid.'
+              'Garantit que les données sur le réseau SAFE sont stockées de manière à ce que le format puisse être compris par d’autres projets Web sémantiques, tels que Solid.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lire le RFC',
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
-            feature: 'Obfuscating stored data',
-            desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
-            status: 'Concept',
+            feature: 'Obscurcir les données stockées',
+            desc: 'Toutes les données stockées dans un coffre-fort sur l’ordinateur d’une personne doivent être entièrement cryptées et illisibles',
+            status: 'Idée',
             para: [
-              'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
+              'Garantit que même la plus petite donnée stockée dans un coffre-fort ne peut pas être lue par la personne contrôlant l’ordinateur sur lequel elle est stockée.'
             ],
           }, {
-            feature: 'Common Coin',
-            desc: 'Replace our concrete coin with a common coin to make PARSEC fully asynchronous',
-            status: 'Design',
+            feature: 'Pièce commune',
+            desc: 'Remplacez notre pièce en béton par une pièce commune pour rendre le PARSEC entièrement asynchrone',
+            status: 'Conception',
             para: [
-              'Common coin is a device that nodes can use to generate a “random” binary value (true or false). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
+              'La monnaie commune est un appareil que les nœuds peuvent utiliser pour générer une valeur binaire «aléatoire» (vraie ou fausse). Chaque fois qu’un nœud lance la pièce, tous les autres nœuds sont garantis d’observer la même valeur pour leur lancer de pièce. De plus, la valeur doit être imprévisible, ce qui signifie qu’aucun nœud malveillant ne peut connaître le résultat avant qu’un nœud honnête ne l’ait observé.'
             ],
           }
         ]
@@ -301,67 +301,67 @@ export default {
     }
   },
   apps: {
-    title: 'Apps and User Experience',
+    title: 'Applications et expérience utilisateur',
     list: [
       {
         id: 'safeBrowser',
-        name: 'SAFE Browser',
-        para: 'The latest release includes some of the beginnings of the Perpetual Web. Please note that it\'s only compatible with the Vaults Phase 1 release.',
-        status: 'Latest Version v0.16.0'
+        name: 'Navigateur SAFE',
+        para: 'La dernière version inclut certains des débuts du Web perpétuel, ainsi que l’Authenticator: vous permettant de vous connecter en toute sécurité au réseau SAFE et de gérer l’accès et les autorisations des applications SAFE.',
+        status: 'DERNIÈRE VERSION v0.16.0'
       }
     ],
     currentMilestone: {
-      status: 'Current Milestone',
-      title: 'The Perpetual Web',
-      para: 'The SAFE Network is designed to ensure that public data is permanent and can never be deleted. Individuals and groups can choose to keep their data private, but once it’s been published, it will remain permanently available. This milestone aims to showcase the incredible power of this facet of the Network, by building out the User Experience, and iterating on it right through to launch.',
+      status: 'Jalon actuel',
+      title: 'Le Web perpétuel',
+      para: 'Le réseau SAFE est conçu pour garantir que les données publiques sont permanentes et ne peuvent jamais être supprimées. Les individus et les groupes peuvent choisir de garder leurs données privées, mais une fois publiées, elles resteront disponibles en permanence. Ce jalon vise à mettre en valeur l’incroyable puissance de cette facette du réseau, en construisant l’expérience utilisateur et en l’itérant jusqu’au lancement.',
       accordion: {
         header: [
-          'Milestone Features',
-          'Description',
-          'Status'
+          'Caractéristiques du jalon',
+          'La description',
+          'Statut'
         ],
         items: [
           {
-            feature: 'SAFE Browser',
-            desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
-            status: 'Complete',
+            feature: 'Navigateur SAFE',
+            desc: 'Améliorations du navigateur conçues spécifiquement pour tirer parti des fonctionnalités du Web perpétuel',
+            status: 'Achevé',
             para: [
-              'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
+              'La fonctionnalité du navigateur SAFE sera étendue pour intégrer de nouvelles fonctionnalités uniques au Web perpétuel, telles que la possibilité de revenir en arrière dans l’historique des versions de tout site Web ou élément SAFE.'
             ],
           },
           {
-            feature: 'Mobile Browser',
-            desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
-            status: 'Complete',
+            feature: 'Navigateur mobile',
+            desc: 'Version mobile du navigateur SAFE qui se limite à parcourir les données publiées du réseau SAFE',
+            status: 'Achevé',
             para: [
-              'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
+              'Permet aux particuliers d’accéder directement au réseau SAFE en utilisant un navigateur sur leur téléphone mobile'
             ],
           },
           {
-            feature: 'Data Manager',
-            desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
-            status: 'Development',
+            feature: 'Gestionnaire de données',
+            desc: 'Publication rationalisée des sites SAFE et des données perpétuelles',
+            status: 'Développement',
             para: [
-              'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
+              'Une suite d’outils qui fournit les fonctionnalités nécessaires pour ajouter des données au réseau SAFE, publier des données perpétuelles et gérer les noms publics. Cela remplacera le gestionnaire d’hébergement Web.'
             ],
           },
           {
             feature: 'SAFE CLI',
-            desc: 'An advanced CLI to manage accounts and data',
-            status: 'Complete',
+            desc: 'Une CLI avancée pour gérer les comptes et les données',
+            status: 'Achevé',
             para: [
-              'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
+              'Un outil en ligne de commande pour gérer les données sur le réseau SAFE. Il permettra à l’utilisateur de stocker des données sur le réseau et de gérer les comptes, les identités et les autorisations. Il s’agit de l’outil sur lequel les applications et fonctionnalités frontales, telles que le gestionnaire de données, s’appuieront.'
             ],
           },
           {
-            feature: 'Public Name System',
-            desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
-            status: 'Complete',
+            feature: 'Système de noms publics',
+            desc: 'Le contenu stocké doit être accessible avec des URL lisibles par l’homme, via un système de noms de domaine décentralisé: le système de noms publics',
+            status: 'Achevé',
             para: [
-              'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
+              'Un système de noms de domaine traduit les adresses IP numériques dans un format qui peut être lu par les humains (par exemple, http // 216.58.206.35 se résout en Google.com). Le Web actuel s’appuie sur une organisation centralisée pour conserver cet enregistrement. Le réseau SAFE exige que ce processus soit indépendant de la volonté d’un seul parti afin d’éviter la censure et la repression.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Lire le RFC',
               url: 'https://github.com/maidsafe/rfcs/issues/283'
             },
           },
@@ -369,126 +369,126 @@ export default {
       }
     },
     upcomingMilestones: {
-      status: 'Upcoming Milestones',
+      status: 'ÉTAPES À VENIR',
       list: [
         {
-          title: 'Private Communications',
-          para: 'If we want a world in which individuals can communicate freely whenever they choose, privacy is essential. This milestone aims to deliver just that.',
+          title: 'Communications privées',
+          para: 'Si nous voulons un monde dans lequel les individus peuvent communiquer librement quand ils le souhaitent, la vie privée est essentielle. Cette étape importante vise précisément à cela.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Caractéristiques du jalon',
+              'La description',
+              'Statut'
             ],
             items: [
               {
-                feature: 'Private Messaging',
-                desc: 'Send secure private messages between clients',
-                status: 'Concept',
+                feature: 'Messagerie privée',
+                desc: 'Envoyer des messages privés sécurisés entre les clients',
+                status: 'Idée',
                 para: [
-                  'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
+                  'L’une des fonctionnalités les plus recherchées du réseau SAFE: messagerie instantanée sécurisée et privée.'
                 ],
               },
               {
-                feature: 'Identity Management',
-                desc: 'Ability for users to create and manage multiple identities',
-                status: 'Concept',
+                feature: 'Gestion d’identité',
+                desc: 'Possibilité pour les utilisateurs de créer et de gérer plusieurs identités',
+                status: 'Idée',
                 para: [
-                  'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
+                  'Améliore l’expérience utilisateur des individus lorsqu’ils basculent entre les identités (ou profils) avec lesquels ils choisissent de se représenter sur le réseau SAFE, sans avoir besoin de créer plusieurs comptes.'
                 ],
               },
               {
-                feature: 'Contacts Management',
-                desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
-                status: 'Concept',
+                feature: 'Gestion des contacts',
+                desc: 'Trouvez, connectez-vous et restez à jour avec les autres utilisateurs du réseau SAFE',
+                status: 'Idée',
                 para: [
-                  'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
+                  'Permet aux utilisateurs SAFE de trouver et de se connecter avec d’autres personnes à travers une gamme d’applications de manière cohérente.'
                 ],
               },
             ]
           }
         },
         {
-          title: 'Take Control of Your Data',
-          para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
+          title: 'Prenez le contrôle de vos données',
+          para: 'Le réseau SAFE renverse le modèle actuel de propriété des données. Les informations personnelles ne seront plus stockées sur les serveurs d’entreprise. L’auto-authentification vous donne un contrôle complet sur vos données. Vous pouvez accorder (et révoquer) l’autorisation aux applications d’utiliser vos données à tout moment et empêcher toute entreprise non autorisée ou un tiers d’y accéder.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Caractéristiques du jalon',
+              'La description',
+              'Statut'
             ],
             items: [
               {
-                feature: 'Data Manager',
-                desc: 'Fine-grained management of your personal data',
-                status: 'Concept',
+                feature: 'Gestionnaire de données',
+                desc: 'Une gestion fine de vos données personnelles',
+                status: 'Idée',
                 para: [
-                  'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
+                  'L’extension de l’outil Data Manager pour permettre aux individus un contrôle précis sur leurs données privées et non publiées.'
                 ],
               },
               {
-                feature: 'RDF Support',
-                desc: 'Support storing and querying RDF resources in SAFE-Core',
+                feature: 'Prise en charge RDF',
+                desc: 'Prise en charge du stockage et de l’interrogation des ressources RDF dans SAFE-Core',
                 status: 'RFC',
                 para: [
-                  'Ensures that the SAFE Network understands a way of describing the architecture of data that is understood by other projects, such as Solid'
+                  'S’assure que le réseau SAFE comprend une façon de décrire l’architecture des données qui est comprise par d’autres projets, tels que Solid'
                 ],
                 CTA: {
-                  name: 'Read the RFC',
+                  name: 'Lire le RFC',
                   url: 'https://github.com/maidsafe/rfcs/issues/289'
                 },
               },
               {
-                feature: 'SPARQL Support',
-                desc: 'Add native support for SPARQL to allow searching of data',
-                status: 'Concept',
+                feature: 'Prise en charge de SPARQL',
+                desc: 'Ajout de la prise en charge native de SPARQL pour permettre la recherche de données',
+                status: 'Idée',
                 para: [
-                  'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
+                  'Améliore la fonctionnalité de SAFE en ajoutant la prise en charge SPARQL aux bibliothèques client SAFE et SAFE Vault (coffre-fort). Cela garantit que le réseau peut comprendre un langage de requête sémantique bien connu et permet aux utilisateurs d’effectuer des recherches.'
                 ],
               },
               {
                 feature: 'Collaboration',
-                desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
-                status: 'Concept',
+                desc: 'Outils pour permettre la collaboration via le partage et les autorisations de groupe sur les données privées non publiées',
+                status: 'Idée',
                 para: [
-                  'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
+                  'Gérez le partage et les autorisations des données et des fichiers privés non publiés pour la collaboration entre les individus et les groupes.'
                 ],
               },
               {
                 feature: 'XOR URLs',
-                desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
-                status: 'Complete',
+                desc: 'Un moyen de partager et d’accéder aux fichiers du réseau SAFE sans avoir besoin d’un nom public',
+                status: 'Achevé',
                 para: [
-                  'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
+                  'Créez un système d’URL normalisées sur le réseau SAFE qui sont basées sur l’adresse XOR du contenu référencé. Garantit que les individus peuvent accéder et localiser les données et les fichiers de manière plus conviviale.'
                 ],
               }
             ]
           }
         },
         {
-          title: 'The New Digital Economy',
-          para: 'The new digital economy is all about ensuring that you no longer pay for your digital life with data. Instead, you use a cryptocurrency that’s integral and distributed by the SAFE Network. You earn value in return for providing resources to the Network.',
+          title: 'La nouvelle économie numérique',
+          para: 'La nouvelle économie numérique vise à garantir que vous ne payez plus votre vie numérique avec des données. Au lieu de cela, vous utilisez une crypto-monnaie intégrée et distribuée par le réseau SAFE. Vous gagnez de la valeur en échange de la fourniture de ressources au réseau.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Caractéristiques du jalon',
+              'La description',
+              'Statut'
             ],
             items: [
               {
-                feature: 'Test Safecoin Wallet',
-                desc: 'Transact using Test Safecoins',
-                status: 'Development',
+                feature: 'Testez le portefeuille Safecoin',
+                desc: 'Transaction en utilisant Test Safecoins',
+                status: 'Développement',
                 para: [
-                  'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
+                  'Les utilisateurs pourront utiliser Test Safecoin dans le réseau, permettant à un écosystème de se construire autour du mécanisme d’incitation SAFE. La possibilité de créer plusieurs portefeuilles, de les associer à une identité, ainsi que des portefeuilles à usage unique pour permettre des transactions anonymes, feront tous partie de cela.',
                 ],
               },
               {
-                feature: 'Vault User Interface',
-                desc: 'Easily set up, run, and manage a Vault',
-                status: 'Concept',
+                feature: 'Interface utilisateur Vault (coffre-fort)',
+                desc: 'Configurez, exécutez et gérez facilement un coffre-fort',
+                status: 'Idée',
                 para: [
-                  'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
+                  'Les utilisateurs verront l’expérience utilisateur Vault considérablement améliorée. Quiconque fournit du stockage au réseau peut s’attendre à voir un certain nombre d’améliorations de la convivialité, ce qui facilite l’offre de ressources et le démarrage de l’agriculture sur les ordinateurs et appareils domestiques quotidiens.'
                 ],
               },
             ]
