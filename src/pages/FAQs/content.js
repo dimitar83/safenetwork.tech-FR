@@ -1,64 +1,64 @@
   export default {
-  title: 'Frequently Asked Questions',
+  title: 'Questions fréquemment posées',
   sections: [
     {
-      title: 'About the SAFE Network',
+      title: 'À propos du SAFE Network',
       items: [
         {
-          question: 'What is the SAFE Network?',
+          question: 'Qu’est-ce que le SAFE Network?',
           answer: [
-            'The SAFE (Secure Access For Everyone) Network is a new secure way to access apps that value the security of your data above all else. Downloading the free SAFE software will provide access to: messaging, apps, email, social networks, data storage, video conferencing, and much more.',
-            'Rather than using data centres and servers which are prone to data theft and surveillance, as is common on today\'s Internet, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.',
-            'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
-            'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
+            'Le réseau SAFE (Secure Access For Everyone) est un nouveau moyen sécurisé d’accéder à des applications qui privilégient la sécurité de vos données par-dessus tout. Le téléchargement du logiciel SAFE gratuit donnera accès à: la messagerie, les applications, le courrier électronique, les réseaux sociaux, le stockage de données, la vidéoconférence et bien plus encore.',
+            'Plutôt que d’utiliser des centres de données et des serveurs qui sont sujets au vol de données et à la surveillance, comme cela est courant sur Internet aujourd’hui, le réseau SAFE utilise une technologie point à point avancée qui réunit la capacité de calcul de rechange de tous les utilisateurs SAFE, créant un réseau mondial.',
+            'Le réseau SAFE est composé de l’espace libre sur le disque dur, de la puissance de traitement et de la connexion de données de ses utilisateurs. Il offre un niveau de sécurité et de confidentialité qui n’est actuellement pas disponible sur Internet existant et retourne la situation aux entreprises, donnant aux utilisateurs le contrôle de leurs données, plutôt que de les confier aux organisations.',
+            'En fournissant vos ressources informatiques inutilisées à SAFE, vous serez payé dans un jeton réseau appelé [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'What is an Autonomous Network?',
+          question: 'Qu’est-ce qu’un Réseau Autonome?',
           answer: [
-            'An Autonomous Network is one which has no human gatekeepers. Anyone is able to join and—crucially—no-one can be prevented from taking part.',
-            'From the moment you upload your encrypted data, no human is required to ensure that your data remains secure and accessible until you alone choose to access it. Without the involvement of humans, the SAFE Network intelligently moves chunks of your data between nodes that it also constantly reassigns to different groups in order to provide total security and privacy at all times. You decide what information you will store—and the autonomous Network secures it to ensure that you retain total control.',
-            '_[Read more about Autonomous Networks](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
+            'Un réseau autonome est un réseau qui n’a pas de portiers humains. Tout le monde peut adhérer et, chose cruciale, personne ne peut être empêché de participer.',
+            'À partir du moment où vous téléchargez vos données cryptées, aucun humain n’est requis pour garantir que vos données restent sécurisées et accessibles jusqu’à ce que vous seul choisissiez d’y accéder. Sans l’implication des humains, le réseau SAFE déplace intelligemment des morceaux de vos données entre les nœuds qu’il réaffecte également en permanence à différents groupes afin de fournir une sécurité et une confidentialité totales à tout moment. Vous décidez quelles informations vous stockerez - et le réseau autonome les sécurise pour vous garantir un contrôle total.',
+            '_[En savoir plus sur les réseaux autonomes](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
           ]
         },
         {
-          question: 'Why should I use the SAFE Network?',
+          question: 'Pourquoi devrais-je utiliser le réseau SAFE?',
           answer: [
-            'Applications and programs on the existing Internet compromise your privacy through advertising and effectively control your data, granting you access when you login. On the SAFE Network, only you control who has access to your data and the distributed security features make your data safer than ever before. If you contribute some of your spare computing power to the network, you will be compensated for doing so with the Network’s built-in token, [Safecoin](/safecoin).'
+            'Les applications et les programmes sur Internet existants compromettent votre vie privée grâce à la publicité et contrôlent efficacement vos données, vous donnant accès lorsque vous vous connectez. Sur le réseau SAFE, vous seul contrôlez qui a accès à vos données et les fonctions de sécurité distribuées rendent vos données plus sûres que jamais. Si vous apportez une partie de votre puissance de calcul inutilisée au réseau, vous serez rémunéré pour cela avec le jeton intégré du réseau, [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'Who owns the SAFE Network?',
+          question: 'À qui appartient le réseau SAFE?',
           answer: [
-            '**No one.**',
-            'The SAFE Network is [open source](https://github.com/maidsafe). Our vision is to create a resource that can be used by everyone to spread all human knowledge and to facilitate sharing across the planet, regardless of country of residence, culture, or economic background.'
+            '**Personne.**',
+            'Le réseau SAFE est [source ouverte](https://github.com/maidsafe). Notre vision est de créer une ressource qui peut être utilisée par tout le monde pour diffuser toutes les connaissances humaines et faciliter le partage à travers la planète, quel que soit le pays de résidence, la culture ou le contexte économique.'
           ]
         },
         {
-          question: 'Who are MaidSafe?',
+          question: 'Qui est MaidSafe?',
           answer: [
-            'Started in 2006 by Scottish engineer David Irvine, MaidSafe are the core developers of the SAFE Network.  It’s a small team comprised of: thinkers, inventors, tinkerers, PhDs, engineers and designers. Although based in Ayr, Scotland, we work remotely with talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a single mission: providing security and privacy for everyone.',
-            '_[Visit Maidsafe.net](https://maidsafe.net)_'
+            'Lancé en 2006 par l’ingénieur écossais David Irvine, MaidSafe est le principal développeur du réseau SAFE. C’est une petite équipe composée de: penseurs, inventeurs, bricoleurs, docteurs, ingénieurs et designers. Bien que basé à Ayr, en Écosse, nous travaillons à distance avec des talents de nombreuses cultures et pays différents, reflétant les utilisateurs que nous servons. Malgré cette variété, nous partageons tous une même mission: assurer la sécurité et la confidentialité de chacun.',
+            '_[Visitez Maidsafe.net](https://maidsafe.net)_'
           ]
         },
         {
-            question: 'What do I need in order to browse the SAFE Network?',
+            question: 'De quoi ai-je besoin pour parcourir le réseau SAFE?',
             answer: [
-              '[Download the SAFE Network App!](https://github.com/maidsafe/safe-network-app/releases/latest)'
+              '[Téléchargez l’application réseau SAFE!](https://github.com/maidsafe/safe-network-app/releases/latest)'
             ]
           },
         {
-          question: 'How do I get involved with the SAFE Network community?',
+          question: 'Comment puis-je m’impliquer dans la communauté du réseau SAFE?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners).',
-            '*[Visit the Forum](https://safenetforum.org/)*'
+            'La communauté est la plus active sur [le forum du réseau SAFE](https://safenetforum.org/) et nous vous suggérons de commencer dans la [section débutants](https://safenetforum.org/c/beginners).',
+            '*[Visitez le Forum](https://safenetforum.org/)*'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Comment obtenir de l’aide?',
           answer: [
-            'The [SAFE Network Forum](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'Le [Forum du réseau SAFE](https://safenetforum.org) est le lieu où s’adresser pour toutes les questions sur le réseau.',
+            '_[Visitez le Forum](https://safenetforum.org/)_'
           ]
         }
       ]
