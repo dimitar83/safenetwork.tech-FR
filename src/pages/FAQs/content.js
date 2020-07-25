@@ -163,155 +163,155 @@
             'La réponse réside dans des groupes proches. En utilisant le consensus de groupe étroit, les petits groupes peuvent faire des déclarations au nom de l’ensemble du réseau, ce qui signifie que le réseau n’a pas besoin de communiquer directement avec chaque nœud à chaque fois.',
             'Sur le réseau SAFE, l’idée de «proximité» vient d’un réseau appelé XOR. Il s’agit d’un moyen de randomiser l’emplacement physique des données sur un réseau distribué et de garantir que chaque emplacement est unique. Cependant, dans ce sens, il est également utilisé car chaque coffre-fort a également un emplacement XOR. Un groupe de fermeture est alors composé des IDs de coffre-fort les plus proches de l’ID de coffre-fort de l’utilisateur en termes de distance XOR. Il s’agit de la distance mesurée au sens mathématique, par opposition au sens géographique.',
             'Le groupe de coffres-forts gérant une section tentera toujours de parvenir à un consensus (accord) entre eux sur tout état et toute action. Ils ‘groupent’ également les messages qui voyagent sur le réseau plus large afin que d’autres coffres-forts dans d’autres groupes puissent vérifier cryptographiquement chaque message et action (tels que la formation, la division et la fusion de groupes). Ces signatures de groupe sont stockées dans des chaînes de données qui sont sécurisées et détenues par toutes les chambres fortes du groupe.',
-            'Close Group Consensus is not used for every operation on the Network as this would cause unnecessary load. It is only used for putting data on the Network—cryptographic signatures are used for other activities—for example, simple amendments to data or sending a Safecoin to another user.'
+            'Le consensus de groupe étroit n’est pas utilisé pour chaque opération sur le réseau car cela entraînerait une charge inutile. Il n’est utilisé que pour placer des données sur le réseau - les signatures cryptographiques sont utilisées pour d’autres activités - par exemple, de simples modifications de données ou l’envoi d’un Safecoin à un autre utilisateur.'
           ]
         },
         {
-          question: 'What are Data Chains?',
+          question: 'Que sont les chaînes de données?',
           answer: [
-            'In the same way that the Bitcoin blockchain does not hold bitcoins, a data chain doesn’t hold data. However, it does provide evidence that a piece of data exists and where it should exist. Crucially, with the SAFE Network the data identified is real (documents, videos etc). That means that we can use that data identifier to prove the actual data itself is valid Network data (i.e. it has been accepted previously by the Network).',
-            'So what is the architecture of a Data Chain? Imagine a block of data. This contains the data identifiers (for example, hash, name, type of data etc). Connected to this block is a link. This link a collection of signatures by all of the members of a group who agree that the details within this block of data are correct. With every change in the membership of the group, a new link is created and added to the Data Chain.',
-            'There is much more to the detail of this architecture but to summarise, the Data Chain will split as the Network grows whilst the collective record will remain, accessible to all nodes. The links prove the membership and agreement that has taken place in the past. Using Data Chains, nodes have a provable history on the Network which means that they can prove group membership and be ranked easily for security purposes. Some nodes will not need to hold the actual data but instead hold only identifiers as the existence of that data is guaranteed. And crucially, Data Chains will ultimately enable the secure republishing of data should the Network ever lose power, as well as providing validation that data has been stored on the Network.',
-            'We believe that Data Chains appear to be a natural progression for decentralised systems. They allow data of any type, size or format to be looked after and maintained in a secure and decentralised manner-in the sense of not only protecting physical data but also the validity of such data on the Network.'
+            'De la même manière que la blockchain Bitcoin ne contient pas de bitcoins, une chaîne de données ne contient pas de données. Cependant, il fournit la preuve qu’un élément de données existe et où il devrait exister. Surtout, avec le réseau SAFE, les données identifiées sont réelles (documents, vidéos, etc.). Cela signifie que nous pouvons utiliser cet identifiant de données pour prouver que les données réelles elles-mêmes sont des données de réseau valides (c’est-à-dire qu’elles ont été acceptées précédemment par le réseau).',
+            'Quelle est donc l’architecture d’une chaîne de données? Imaginez un bloc de données. Il contient les identifiants de données (par exemple, hachage, nom, type de données, etc.). Connecté à ce bloc est un lien. Ce lien relie une collection de signatures de tous les membres d’un groupe qui conviennent que les détails de ce bloc de données sont corrects. À chaque modification de l’appartenance au groupe, un nouveau lien est créé et ajouté à la chaîne de données.',
+            'Il y a beaucoup plus dans le détail de cette architecture mais pour résumer, la chaîne de données se divisera au fur et à mesure que le réseau se développera tandis que le dossier collectif restera accessible à tous les nœuds. Les liens prouvent l’adhésion et l’accord qui ont eu lieu dans le passé. À l’aide des chaînes de données, les nœuds ont une histoire prouvable sur le réseau, ce qui signifie qu’ils peuvent prouver l’appartenance à un groupe et être classés facilement à des fins de sécurité. Certains nœuds n’auront pas besoin de conserver les données réelles mais ne détiendront à la place que des identificateurs car l’existence de ces données est garantie. Et surtout, les chaînes de données permettront en fin de compte la republication sécurisée des données en cas de perte d’alimentation du réseau, ainsi que la validation du stockage des données sur le réseau.',
+            'Nous pensons que les chaînes de données semblent être une progression naturelle pour les systèmes décentralisés. Ils permettent de gérer et de conserver de manière sécurisée et décentralisée des données de tout type, taille ou format, dans le sens de protéger non seulement les données physiques mais également la validité de ces données sur le réseau.'
           ]
         }
       ]
     },
     {
-      title: 'About Safecoin',
+      title: 'À propos de Safecoin',
       items: [
         {
-          question: 'What is Safecoin?',
+          question: 'Qu’est-ce que Safecoin?',
           answer: [
-            'Safecoin is a digital token that is generated automatically by the SAFE Network and stays on the SAFE Network. The Network will autonomously confirm account balances to Wallets and allow transactions to take place. Safecoin is transferred using the digital signature of the coin’s last owner. This operation is \'network atomic\'; in other words, the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.'
+            'Safecoin est un jeton numérique qui est généré automatiquement par le réseau SAFE et reste sur le réseau SAFE. Le réseau confirmera de manière autonome les soldes des comptes aux portefeuilles et autorisera les transactions. Safecoin est transféré à l’aide de la signature numérique du dernier propriétaire de la pièce. Cette opération est \'atomique en réseau\'; en d’autres termes, le Réseau s’assure que toutes les copies sont mises à jour pour refléter la transaction. Il s’agit d’une approche différente du mécanisme de blockchain utilisé dans d’autres projets, tels que Bitcoin.'
           ]
         },
         {
-          question: 'What\'s the use of Safecoin in the SAFE Network?',
+          question: 'Quelle est l’utilité de Safecoin dans le réseau SAFE?',
           answer: [
-            'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-            'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-            'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-            'Safecoin only lives on the SAFE Network. It is stored in a User\'s wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.'
+            'Safecoin est la devise du réseau SAFE. Il s’agit d’un mécanisme incitatif qui récompense les utilisateurs et les développeurs, ainsi que l’accès aux services réseau.',
+            'Sans aucune intervention humaine, le réseau SAFE verse automatiquement Safecoin aux agriculteurs (utilisateurs qui rejoignent le réseau en contribuant leurs ressources informatiques) et aux constructeurs (développeurs d’applications, qui sont payés automatiquement en fonction de la quantité d’utilisation de leurs applications).',
+            'En outre, les développeurs principaux qui améliorent la base de code de base du réseau SAFE peuvent également gagner Safecoin en fournissant des corrections des erreurs et de nouvelles fonctionnalités.',
+            'Safecoin ne vit que sur le réseau SAFE. Il est stocké dans le portefeuille d’un utilisateur et peut être utilisé pour acheter des services réseau, tels qu’un espace de stockage accru et un accès aux applications réseau. Il n’y a pas de délai de distribution défini pour les 4,3 milliards de Safecoin produits pendant la durée de vie du réseau SAFE.'
           ]
         },
         {
-          question: 'How do I buy Safecoin?',
+          question: 'Comment acheter Safecoin?',
           answer: [
-            'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including:',
+            'Safecoin ne sera pas émis tant que le réseau ne sera pas mis en ligne, il ne pourra donc pas être acheté pour le moment. Actuellement, vous pouvez acheter MaidSafeCoin qui sera échangé sur une base 1 contre 1 pour Safecoin lors de sa sortie.',
+            'MaidSafeCoin est répertorié sur la blockchain Bitcoin et peut être acheté sur un certain nombre d’échanges, notamment:',
             '- [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)'
           ]
         },
         {
-          question: 'Why not just use Bitcoin?',
+          question: 'Pourquoi ne pas simplement utiliser Bitcoin?',
           answer: [
-            'Bitcoin is completely unrelated to the SAFE Network and cannot be generated or distributed by the SAFE Network. Safecoin is generated in response to network use (stored data being retrieved or apps are created) and is the digital currency of the SAFE Network.'
+            'Le Bitcoin n’est absolument pas lié au réseau SAFE et ne peut pas être généré ou distribué par le réseau SAFE. Safecoin est généré en réponse à l’utilisation du réseau (les données stockées sont récupérées ou des applications sont créées) et est la monnaie numérique du réseau SAFE.'
           ]
         },
         {
-          question: 'How is Safecoin valued?',
+          question: 'Comment Safecoin est-il évalué?',
           answer: [
-            'The value of Safecoin will be set by the market. In other words, the demand to acquire Safecoin will be driven by the demand to buy things on the Network using Safecoin (e.g. other currency, products, services etc). Whilst simply viewing data on the Network will be free, Safecoin will be needed to buy distributed data storage and for communications. Farmers should earn more than enough Safecoin to enable them to use the Network. Those who earn more than they need will likely sell excess Safecoin to the exchanges.',
-            'It is worth noting that the generation and distribution of Safecoin will be entirely network-led, meaning that a great demand for Safecoin will result in a large volume being created, while low demand will lead to minimal coins being generated.'
+            'La valeur de Safecoin sera fixée par le marché. En d’autres termes, la demande d’acquérir Safecoin sera motivée par la demande d’acheter des choses sur le réseau en utilisant Safecoin (par exemple, d’autres devises, produits, services, etc.). Alors que la simple visualisation des données sur le réseau sera gratuite, Safecoin sera nécessaire pour acheter un stockage de données distribué et pour les communications. Les agriculteurs devraient gagner plus que suffisamment de Safecoin pour leur permettre d’utiliser le réseau. Ceux qui gagnent plus que ce dont ils ont besoin vendront probablement l’excédent de Safecoin aux bourses.',
+            'Il convient de noter que la génération et la distribution de Safecoin seront entièrement gérées par le réseau, ce qui signifie qu’une forte demande de Safecoin entraînera la création d’un volume important, tandis qu’une faible demande entraînera une génération minimale de pièces.'
           ]
         },
         {
-          question: 'How is Safecoin distributed?',
+          question: 'Comment Safecoin est-il distribué?',
           answer: [
-            'The total number of Safecoin that can exist on the SAFE Network is 2^32, or just under 4.3 billion. 5% of that total has been allocated to compensate early investors who backed the Network development in the early days. A further 10% was sold to crowdsale participants in early 2014. They received MaidSafeCoin (a blockchain-based token that will be exchanged for Safecoin on a one-for-one ratio when the Network launches). At that stage, the holders can use Safecoin however they wish.',
-            'Beyond that, Safecoin will come into and go out of circulation in a continuous flow as follows:',
-            'All new Safecoin are generated as a part of the farming process and distributed to Farmers, App Builders and the Core Developer pool according to their individual algorithms, as described below.',
-            'Safecoin is distributed as the product of a successful “farming attempt.” The sequence leading up to a successful farming attempt starts when a Farmer’s Vault accurately delivers up stored data when the data is requested. When this is successfully done, the Vault seeks to qualify for a farming attempt. The chance of gaining a farming attempt is regulated by the network Farming Rate (FR) which prevails at that moment, and adjusts the ease or difficulty of gaining a farming attempt, depending on prevailing network conditions (availability or scarcity of storage resources).',
-            '\n*   Farmers qualify for farming attempts at 100% of the Farming Rate (FR) (as modified by Vault performance ranking).\n*   App Builders qualify for farming attempts at 10% of the FR\n*   The pool from which Core Developers are rewarded for their contributions qualifies for farming attempts at 5% of the FR.'
+            'Le nombre total de Safecoin pouvant exister sur le réseau SAFE est de 2 ^ 32, soit un peu moins de 4,3 milliards. 5% de ce total ont été alloués pour compenser les premiers investisseurs qui ont soutenu le développement du réseau au début. Un autre 10% a été vendu aux participants de crowdsale au début de 2014. Ils ont reçu MaidSafeCoin (un jeton basé sur la blockchain qui sera échangé contre Safecoin selon un ratio de un pour un lors du lancement du réseau). À ce stade, les détenteurs peuvent utiliser Safecoin comme ils le souhaitent.',
+            'Au-delà, Safecoin entrera et sortira de la circulation dans un flux continu comme suit:',
+            'Tous les nouveaux Safecoin sont générés dans le cadre du processus agricole et distribués aux agriculteurs, aux constructeurs d’applications et au pool de développeurs principaux en fonction de leurs algorithmes individuels, comme décrit ci-dessous.',
+            'Safecoin est distribué comme le produit d’une "tentative d’agriculture" réussie. La séquence menant à une tentative d’agriculture réussie commence lorsque le coffre-fort d’un agriculteur fournit avec précision les données stockées lorsque les données sont demandées. Lorsque cela est fait avec succès, le coffre-fort cherche à se qualifier pour une tentative d’agriculture. Les chances de gagner une tentative d’agriculture sont régulées par le réseau Farming Rate (FR) qui prévaut à ce moment-là, et ajuste la facilité ou la difficulté d’obtenir une tentative d’agriculture, en fonction des conditions du réseau en vigueur (disponibilité ou rareté des ressources de stockage).',
+            '\n*   Les agriculteurs sont admissibles à des tentatives agricoles à 100% du taux d’agriculture (FR) (tel que modifié par le classement des performances du coffre-fort).\n*   Les constructeurs d’applications se qualifient pour les tentatives d’agriculture à 10% du FR\n*   Le pool à partir duquel les développeurs principaux sont récompensés pour leurs contributions se qualifie pour les tentatives agricoles à 5% du FR.'
           ]
         },
         {
-          question: 'What is MaidSafeCoin?',
+          question: 'Qu’est-ce que MaidSafeCoin?',
           answer: [
-            'MaidSafeCoin is a proxy token that was released during MaidSafe\'s crowd sale and will be swapped for Safecoin on a 1:1 basis when Safecoin is released.',
-            'MaidSafeCoin is listed on the Bitcoin blockchain and can be purchased on a number of exchanges including [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID) and [HitBTC](https://hitbtc.com/MAID-to-BTC).',
+            'MaidSafeCoin est un jeton de proxy qui a été publié lors de la vente de masse de MaidSafe et sera échangé contre Safecoin sur une base de 1: 1 lorsque Safecoin sera publié.',
+            'MaidSafeCoin est répertorié sur la blockchain Bitcoin et peut être acheté sur un certain nombre d’échanges, y compris [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID) et [HitBTC](https://hitbtc.com/MAID-to-BTC).',
           ]
         },
         {
-          question: 'How do I buy MaidSafeCoin?',
+          question: 'Comment acheter MaidSafeCoin?',
           answer: [
-            'In essence all we have to do is buy bitcoin and exchange it for MaidSafeCoin. There are a few simple steps required to do this.',
-            '\n1.  Create an [OmniWallet](http://omniwallet.org/).\n2.  Purchase bitcoin using your preferred vendor.\n3.  Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Send bitcoin to the trading account.\n5.  Trade bitcoin for MaidSafeCoin.\n6.  Withdraw / Transfer to OmniWallet.\n7.  MaidSafeCoin is now in your OmniWallet!'
+            'En substance, tout ce que nous avons à faire est d’acheter du bitcoin et de l’échanger contre MaidSafeCoin. Pour ce faire, quelques étapes simples sont nécessaires.',
+            '\n1.  Créez un [OmniWallet](http://omniwallet.org/).\n2.  Achetez du bitcoin en utilisant votre fournisseur préféré.\n3.  Créez un compte commercial sur un échange qui répertorie MaidSafeCoin (par exemple sur [Bittrex](https://global.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Envoyez des bitcoins au compte de trading.\n5.  Échangez des bitcoins contre MaidSafeCoin.\n6.  Retirer / transférer vers OmniWallet.\n7.  MaidSafeCoin est maintenant dans votre OmniWallet!'
           ]
         },
         {
-          question: 'Where can I store MaidSafeCoin?',
+          question: 'Où puis-je stocker MaidSafeCoin?',
           answer: [
-            'As MaidSafeCoin is built using the Omni protocol on the Bitcoin blockchain, it can be stored in any wallet. They may not be visible within all wallet software (due to lack of Omni support) but the MaidSafeCoin will be OK there as long as your machine and private key for that address are secure and you will be able to view them using [omniexplorer.info](https://omniexplorer.info).',
-            'To create a new Omniwallet or open an existing one visit [omniwallet.org](https://www.omniwallet.org/).'
+            'Comme MaidSafeCoin est construit en utilisant le protocole Omni sur la blockchain Bitcoin, il peut être stocké dans n’importe quel portefeuille. Ils peuvent ne pas être visibles dans tous les logiciels de portefeuille (en raison du manque de support Omni) mais MaidSafeCoin y sera OK tant que votre machine et votre clé privée pour cette adresse sont sécurisées et que vous pourrez les visualiser en utilisant [omniexplorer.info](https://omniexplorer.info).',
+            'Pour créer un nouvel Omniwallet ou ouvrir un existant, visitez [omniwallet.org](https://www.omniwallet.org/).'
           ]
         },
         {
-          question: 'How will MaidSafeCoin be converted to Safecoin?',
+          question: 'Comment MaidSafeCoin sera-t-il converti en Safecoin?',
           answer: [
-            'Once the SAFE Network goes live, MaidSafeCoin can be exchanged for Safecoin at a ratio of 1:1. This will probably be achieved by sending MaidSafeCoin to an unspendable address, thereby burning them. In return, an equal number of Safecoin will then be issued to the sender\'s User account on the SAFE Network.'
+            'Une fois le réseau SAFE mis en service, MaidSafeCoin peut être échangé contre Safecoin dans un rapport de 1: 1. Cela sera probablement réalisé en envoyant MaidSafeCoin à une adresse inutilisable, les brûlant ainsi. En retour, un nombre égal de Safecoin sera ensuite émis sur le compte d’utilisateur de l’expéditeur sur le réseau SAFE.'
           ]
         }
       ]
     },
     {
-      title: 'About Farming',
+      title: 'À propos de l’Agriculture',
       items: [
         {
-          question: 'What is Farming?',
+          question: 'Qu’est-ce que l’Agriculture?',
           answer: [
-            'Safecoin is given as an incentive to users for providing their resource to the network. This resource is their: storage space, CPU, bandwidth and online time that enable the encrypted chunks of network data to be stored and retrieved from their computer.',
-            'The process of providing resource and receiving Safecoin in return is called ‘Farming’.',
-            'Each piece of encrypted network data is stored in a Farmer\'s ‘Vault’, a data storage and management location on the Farmer\'s computer which they cannot read, or access. The SAFE Network is designed to self-manage these resources.'
+            'Safecoin est donné comme une incitation aux utilisateurs pour fournir leurs ressources au réseau. Cette ressource est leur: espace de stockage, CPU, bande passante et temps en ligne qui permettent aux morceaux chiffrés de données réseau d’être stockés et récupérés à partir de leur ordinateur.',
+            'Le processus consistant à fournir des ressources et à recevoir Safecoin en retour est appelé ’agriculture’.',
+            'Chaque élément de données chiffrées du réseau est stocké dans le ’coffre-fort’ d’un agriculteur, un emplacement de stockage et de gestion des données sur l’ordinateur du fermier auquel il ne peut ni lire ni accéder. Le réseau SAFE est conçu pour autogérer ces ressources.'
           ]
         },
         {
-          question: 'How will farming work in practice?',
+          question: 'Comment l’agriculture fonctionnera-t-elle dans la pratique?',
           answer: [
-            'When a user of the network requests some data, for example by browsing a website, a number of things happen: First, the client software makes a request for the required data chunks. This message (a GET request) is then propagated across the Network and when the chunk is found there is a competition between the Vaults in that Section to deliver it to the Network where it will be routed back to the requester. The first Vault to deliver will have a chance of being rewarded with Safecoin. This is described as a Farming Attempt.',
-            'Farming Attempt means: by delivering data chunks when requested, a Vault occasionally gains the opportunity to make a Farming Attempt. This consists of sending a validated request to a random Safecoin address. If an owned Safecoin already exists at that address, the Attempt fails. If there is no Safecoin there, one is created and awarded to the requesting Vault (i.e. a successful Farming Attempt has been made).',
-            'Farming is therefore when a Vault delivers data chunks that it is storing to the network and earns Safecoin in return.',
-            'The probability of gaining a Farming Attempt is dependent on the farming rate, which is a variable related to the quantity of available storage resources in the Network.'
+            'Lorsqu’un utilisateur du réseau demande des données, par exemple en naviguant sur un site Web, un certain nombre de choses se produisent: Premièrement, le logiciel client fait une demande pour les blocs de données requis. Ce message (une demande GET) est ensuite propagé à travers le réseau et lorsque le bloc est trouvé, il y a une concurrence entre les coffres dans cette section pour le livrer au réseau où il sera redirigé vers le demandeur. Le premier coffre-fort à livrer aura une chance d’être récompensé par Safecoin. Ceci est décrit comme une tentative d’agriculture.',
+            'Farming Attempt signifie: en livrant des blocs de données sur demande, un coffre-fort gagne occasionnellement la possibilité de faire une tentative d’agriculture. Cela consiste à envoyer une demande validée à une adresse Safecoin aléatoire. Si un Safecoin détenu existe déjà à cette adresse, la tentative échoue. S’il n’y a pas de Safecoin, un est créé et attribué au coffre-fort demandeur (c’est-à-dire qu’une tentative d’agriculture réussie a été effectuée).',
+            'L’agriculture est donc lorsqu’un coffre-fort fournit des blocs de données qu’il stocke sur le réseau et gagne en retour Safecoin.',
+            'La probabilité de gagner une tentative d’agriculture dépend du taux d’agriculture, qui est une variable liée à la quantité de ressources de stockage disponibles dans le réseau.'
           ]
         },
         {
-          question: 'What is stopping a hosting provider from farming?',
+          question: 'Qu’est-ce qui empêche un hébergeur de pratiquer l’agriculture?',
           answer: [
-            'Nothing. Everyone is welcome to farm and thereby contribute to the network. To prevent centralisation, the use of one huge farming rig will be economically discouraged as compared to running multiple smaller nodes. The Safecoin earning algorithm is based on a Sigmoid curve, in that all Vaults earn, slowly at first and the rate increases as the Farmer stores up to the network average. The earning rate also takes into account the rank of the Vault, a process whereby the network scores the usefulness of each node from 0 (being the worst) to 1 (the best).',
-            'The Safecoin farming rate is ultimately the result of the network rate (a balance of the demand and supply on the network) multiplied by the Vault rank. The network rate will start to level at 20% above average, thus discouraging massive Vaults which would bring centralisation to the network’s farming process.'
+            'Rien. Tout le monde est le bienvenu à la ferme et contribue ainsi au réseau. Pour éviter la centralisation, l’utilisation d’une énorme plate-forme agricole sera économiquement découragée par rapport à l’exécution de plusieurs nœuds plus petits. L’algorithme de gain Safecoin est basé sur une courbe sigmoïde, dans la mesure où tous les coffres gagnent, lentement au début et le taux augmente à mesure que le fermier enregistre jusqu’à la moyenne du réseau. Le taux de gain prend également en compte le rang du coffre-fort, un processus par lequel le réseau note l’utilité de chaque nœud de 0 (étant le pire) à 1 (le meilleur).',
+            'Le taux d’élevage Safecoin est finalement le résultat du taux du réseau (un équilibre de la demande et de l’offre sur le réseau) multiplié par le rang Vault. Le taux du réseau commencera à se stabiliser à 20% au-dessus de la moyenne, décourageant ainsi les voûtes massives qui centraliseraient le processus agricole du réseau.'
           ]
         }
       ]
     },
     {
-      title: 'For Developers',
+      title: 'Pour les développeurs',
       items: [
         {
-          question: 'What’s in it for developers?',
+          question: 'Quels sont les avantages pour les développeurs?',
           answer: [
-            '15% of all Safecoin earned will be allocated to the developer pool. This will ensure the developer community is highly motivated and rewarded for providing free-to-use applications as their revenue model. It is proposed that developers are able to use the SAFE Network to publish their applications. These application developers are called Builders and the network will reward use of these applications by paying the Builders in Safecoin based on the application use by users of the system. This is possible since the application developer can insert their own network immutable wallet address in their application. This creates a fully automatic revenue model for both open source projects, private individuals and application development companies. Developers who contribute code that enhances or fixes bugs in the SAFE Network that are accepted into the master branch of the codebase will also be able to earn Safecoin.',
-            'Reasons for developing on the SAFE Network:',
-            '\n*   Get your apps everywhere\n*   No API key—just download our code and start using it\n*   Extremely low customer acquisition costs and no infrastructure costs\n*   Apps that adapt in real-time to changes in demand\n*   Provide security, privacy and anonymity to all your users'
+            '15% de tous les Safecoin gagnés seront alloués au pool de développeurs. Cela garantira que la communauté des développeurs est très motivée et récompensée pour fournir des applications gratuites comme modèle de revenus. Il est proposé que les développeurs puissent utiliser le réseau SAFE pour publier leurs applications. Ces développeurs d’applications sont appelés constructeurs et le réseau récompensera l’utilisation de ces applications en payant les constructeurs en Safecoin en fonction de l’utilisation des applications par les utilisateurs du système. Cela est possible car le développeur de l’application peut insérer sa propre adresse de portefeuille immuable sur le réseau dans son application. Cela crée un modèle de revenus entièrement automatique pour les projets open source, les particuliers et les sociétés de développement d’applications. Les développeurs qui contribuent du code qui améliore ou corrige des erreurs (bugs) dans le réseau SAFE qui sont acceptés dans la branche principale de la base de code pourront également gagner Safecoin.',
+            'Raisons du développement sur le réseau SAFE:',
+            '\n*   Obtenez vos applications partoute\n*   Pas de clé API - il suffit de télécharger notre code et de commencer à l’utiliser\n*   Coûts d’acquisition de clients extrêmement bas et pas de coûts d’infrastructure\n*   Des applications qui s’adaptent en temps réel aux évolutions de la demande\n*   Offrez sécurité, confidentialité et anonymat à tous vos utilisateurs'
           ]
         },
         {
-          question: 'As a developer how do I get involved?',
+          question: 'En tant que développeur, comment puis-je m’impliquer?',
           answer: [
-            'On top of our informative and helpful [Dev Forum](https://forum.safedev.org/), the SAFE Network has a dedicated [developer hub](https://hub.safedev.org/) that is the hub for all development resources.',
-            '[Visit the DevHub](https://hub.safedev.org/)'
+            'En plus de notre [forum de développement](https://forum.safedev.org/) informatif et utile,  le réseau SAFE dispose d’un [hub dédié aux développeurs](https://hub.safedev.org/) qui est le hub de toutes les ressources de développement.',
+            '[Visitez le DevHub](https://hub.safedev.org/)'
           ]
         },
         {
-          question: 'Why is the SAFE Network open source?',
+          question: 'Pourquoi le SAFE Network est-il source ouverte?',
           answer: [
-            'Because the SAFE Network has the potential to become a vital part of the lives of every connected person on the planet, MaidSafe are 100% committed to ensuring that all software is released under an open source licence. This encourages innovation and helps prevent any single person, company or organisation gaining control over the technology.'
+            'Parce que le réseau SAFE a le potentiel de devenir une partie vitale de la vie de chaque personne connectée sur la planète, MaidSafe s’engage à 100% à garantir que tous les logiciels sont publiés sous une licence open source. Cela encourage l’innovation et empêche toute personne, entreprise ou organisation de prendre le contrôle de la technologie.'
           ]
         },
         {
-          question: 'What open source licenses does the SAFE Network use?',
+          question: 'Quelles licences open source le réseau SAFE utilise-t-il?',
           answer: [
-            'All SAFE Network and MaidSafe code is made available under [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) or [MIT](https://opensource.org/licenses/MIT) license.'
+            'Tous les codes SAFE Network et MaidSafe sont disponibles sous licence [GPLv3](https://www.gnu.org/licenses/gpl.html), [BSD](http://www.linfo.org/bsdlicense.html) ou [MIT](https://opensource.org/licenses/MIT) license.'
           ]
         }
       ]
