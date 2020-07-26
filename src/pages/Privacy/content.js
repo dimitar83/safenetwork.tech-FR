@@ -1,102 +1,102 @@
 export default {
-  title: 'Privacy Policy',
+  title: 'Politique de confidentialité',
   topics: [
     {
-      title: 'Data controller: MaidSafe.Net Limited',
+      title: 'Contrôleur de données: MaidSafe.Net Limited',
       para: [
-        'Updated 31 Jul 2019',
-        'We take our duty to process your personal data very seriously. This policy explains how we collect, manage, use and protect your personal data.',
-        'We may change this policy from time to time to reflect the latest view of what we do with your information. Please check back frequently to see if we have made any changes.'
+        'Mise à jour 31 juil.2019',
+        'Nous prenons notre devoir de traiter vos données personnelles très au sérieux. Cette politique explique comment nous collectons, gérons, utilisons et protégeons vos données personnelles.',
+        'Nous pouvons modifier cette politique de temps à autre pour refléter la dernière vue de ce que nous faisons avec vos informations. Veuillez vérifier fréquemment pour voir si nous avons apporté des modifications.'
       ],
     }, {
-      title: 'What does this policy cover?',
+      title: 'Que couvre cette police?',
       para: [
-        'This privacy policy applies only to your use of our site. Our site may contain links to other websites. Please note that we have no control over how your data is collected, stored, or used by other websites and we advise you to check the privacy policies of any such websites before providing any data to them.'
+        'Cette politique de confidentialité s’applique uniquement à votre utilisation de notre site. Notre site peut contenir des liens vers d’autres sites Web. Veuillez noter que nous n’avons aucun contrôle sur la façon dont vos données sont collectées, stockées ou utilisées par d’autres sites Web et nous vous conseillons de vérifier les politiques de confidentialité de ces sites Web avant de leur fournir des données.'
       ]
     }, {
-      title: 'What is personal data?',
+      title: 'Qu’est-ce que les données personnelles?',
       para: [
-        'Personal data means any and all data that relates to an identifiable person who can be directly or indirectly identified from that data. In this case, it means personal data that you give to us via Our Site. This definition shall, where applicable, incorporate the definitions provided in the EU Regulation 2016/679 – the General Data Protection Regulation (“GDPR”).'
+        'Les données personnelles désignent toutes les données relatives à une personne identifiable qui peut être identifiée directement ou indirectement à partir de ces données. Dans ce cas, cela signifie les données personnelles que vous nous fournissez via notre site. Cette définition doit, le cas échéant, intégrer les définitions fournies dans le règlement UE 2016/679 - le règlement général sur la protection des données (“RGPD”).'
       ]
     }, {
-      title: 'What information does the organisation collect?',
+      title: 'Quelles informations l’organisation recueille-t-elle?',
       para: [
-        'We do not place cookies on your computer or device however, the organisation collects information about you as follows:',
+        'Nous ne déposons pas de cookies sur votre ordinateur ou appareil, cependant, l’organisation recueille des informations sur vous comme suit:',
         // '- Your IP Address',
         // 'During the Alpha phase of the SAFE Network development we record the currently active IP address of your login in order to avoid spamming attempts. The IP address is recorded only when the “Set Registered IP” or “Update Registered IP” buttons are pressed. The data will be stored on an external server [Digital Ocean](https://www.digitalocean.com/) and will be deleted as soon as it is apparent that the information is no longer needed for the purpose for which it was retained.',
         // '- Your email address',
-        'If you choose to subscribe to our email newsletter we collect your email address. If you are an iOS user and you register to download the SAFE browser to your iOS device we collect your email address',
-        '- Your name, iOS Device and UDID',
-        'If you are an iOS user and you register to download the SAFE browser to your iOS device, AppCenter require you to provide your name, iOS device and UDID for all iOS devices you wish to download the SAFE Browser onto.',
-        '- Voluntarily Submitted Information',
-        'In addition, we may collect and retain information you voluntarily submit to us by contacting us via email. It is up to you whether to submit information to us, and how much information to provide.',
+        'Si vous choisissez de vous abonner à notre newsletter par e-mail, nous collectons votre adresse e-mail. Si vous êtes un utilisateur iOS et que vous vous inscrivez pour télécharger le navigateur SAFE sur votre appareil iOS, nous collectons votre adresse e-mail',
+        '- Votre nom, appareil iOS et UDID',
+        'Si vous êtes un utilisateur iOS et que vous vous inscrivez pour télécharger le navigateur SAFE sur votre appareil iOS, AppCenter vous demande de fournir votre nom, votre appareil iOS et votre UDID pour tous les appareils iOS sur lesquels vous souhaitez télécharger le navigateur SAFE.',
+        '- Informations soumises volontairement',
+        'En outre, nous pouvons collecter et conserver les informations que vous nous soumettez volontairement en nous contactant par e-mail. C’est à vous de nous soumettre des informations et la quantité d’informations à fournir.',
         ]
     },
 	{
-      title: 'Why does the organisation process personal data?',
+      title: 'Pourquoi l’organisation traite-t-elle les données personnelles?',
       para: [
-        'The organisation has a legitimate interest in processing personal data (current IP address) in order to ensure that the SAFE Network can be accessed, during the Alpha development phase without being left open to attack by malicious agents.',
-        'Collecting IP addresses is a temporary measure but essential at this stage as it acts as a form of spam protection - preventing someone creating thousands of accounts and attacking the Network whilst it is in Alpha stage. The company will only collect this information if you with your consent press the button “Set Registered IP” or “Update Registered IP”.',
-        'Collecting email addresses with your consent enables us to email you, and keep you up to date with all news related to the SAFE Network. Providing your email address if you are an iOS user provides you with the opportunity to deploy and test the SAFE Browser.'
+        'L’organisation a un intérêt légitime à traiter les données personnelles (adresse IP actuelle) afin de garantir que le réseau SAFE soit accessible, pendant la phase de développement Alpha, sans être exposé aux attaques d’agents malveillants.',
+        'La collecte d’adresses IP est une mesure temporaire mais essentielle à ce stade car elle agit comme une forme de protection anti-spam - empêchant quelqu’un de créer des milliers de comptes et d’attaquer le réseau alors qu’il est en phase Alpha. La société ne collectera ces informations que si vous, avec votre consentement, appuyez sur le bouton “Définir IP enregistrée” ou ”Mettre à jour IP enregistrée”.',
+        'La collecte d’adresses e-mail avec votre consentement nous permet de vous envoyer un e-mail et de vous tenir au courant de toutes les actualités liées au réseau SAFE. En fournissant votre adresse e-mail si vous êtes un utilisateur iOS, vous avez la possibilité de déployer et de tester le navigateur SAFE.'
       ]
     },
 	{
-      title: 'Who has access to data?',
+      title: 'Qui a accès aux données?',
       para: [
-        'Your information may be shared internally for the purposes of the development of the SAFE Network. This includes members of the Marketing, QA, Development and Payroll teams.',
-        'When you consent for your IP address to be collected, this will be stored on an external server hosted by Digital Ocean with whom the QA and Development teams have access. More information on their privacy policy can be found here - [https://www.digitalocean.com/legal/privacy-policy/](https://www.digitalocean.com/legal/privacy-policy/)',
-        'When you consent for your email address to be collected, by signing up for the newsletter, your email address will be stored on an external server hosted by [MailChimp](https://mailchimp.com/) to which the MaidSafe Marketing team has access. When signing up for Mailchimp your email address will be stored by MailChimp, in addition Mailchimp may also collect the following data from you; device information and product usage. When unsubscribing, updating your preferences or viewing an email in your browser MailChimp may place cookies on your device.',
-        'If you wish to unsubscribe from the newsletter, MailChimp will immediately anonymise your personal data and we will permanently delete this remaining anonymised data each May and November.',
-        'More information on their privacy policy can be found here - [https://mailchimp.com/legal/privacy/](https://mailchimp.com/legal/privacy/)',
-        'If you are an iOS user and you register with MaidSafe to become a tester of the SAFE Browser for iOS, you will be asked to fill in a Google form to provide your details - [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en)',
-        'If you are an iOS user and you register with AppCenter to download the SAFE Browser, you consent for your email address, name, iOS device and UDID to be collected. This information is stored on [AppCenter](https://privacy.microsoft.com/en-gb/privacystatement) to which the QA and Development teams have access.'
+        'Vos informations peuvent être partagées en interne aux fins du développement du réseau SAFE. Cela inclut les membres des équipes Marketing, QA, Développement et Paie.',
+        'Lorsque vous consentez à ce que votre adresse IP soit collectée, celle-ci sera stockée sur un serveur externe hébergé par Digital Ocean avec lequel les équipes QA et Développement ont accès. Plus d’informations sur leur politique de confidentialité peuvent être trouvées ici - [https://www.digitalocean.com/legal/privacy-policy/](https://www.digitalocean.com/legal/privacy-policy/)',
+        'Lorsque vous consentez à ce que votre adresse e-mail soit collectée, en vous inscrivant à la newsletter, votre adresse e-mail sera stockée sur un serveur externe hébergé par [MailChimp](https://mailchimp.com/) auquel l’équipe marketing de MaidSafe a accès. Lors de votre inscription à Mailchimp, votre adresse e-mail sera stockée par MailChimp, en outre Mailchimp peut également collecter les données suivantes auprès de vous; informations sur l’appareil et utilisation du produit. Lors de la désinscription, de la mise à jour de vos préférences ou de l’affichage d’un e-mail dans votre navigateur, MailChimp peut placer des cookies sur votre appareil.',
+        'Si vous souhaitez vous désinscrire de la newsletter, MailChimp anonymisera immédiatement vos données personnelles et nous supprimerons définitivement ces données anonymisées restantes en mai et novembre.',
+        'Plus d’informations sur leur politique de confidentialité peuvent être trouvées ici - [https://mailchimp.com/legal/privacy/](https://mailchimp.com/legal/privacy/)',
+        'Si vous êtes un utilisateur iOS et que vous vous inscrivez sur MaidSafe pour devenir un testeur du navigateur SAFE pour iOS, il vous sera demandé de remplir un formulaire Google pour fournir vos coordonnées - [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en)',
+        'Si vous êtes un utilisateur iOS et que vous vous inscrivez sur AppCenter pour télécharger le navigateur SAFE, vous acceptez que votre adresse e-mail, votre nom, votre appareil iOS et votre UDID soient collectés. Ces informations sont stockées sur [AppCenter](https://privacy.microsoft.com/en-gb/privacystatement) auquel les équipes QA et Développement ont accès.'
       ]
     }, {
-      title: 'How does the organisation protect data?',
+      title: 'Comment l’organisation protège-t-elle les données?',
       para: [
-        'The organisation has limited the amount of personal data it collects. The organisation has limited the number of people who have access to Digital Ocean, Mailchimp and AppCenter.',
+        'L’organisation a limité la quantité de données personnelles qu’elle collecte. L’organisation a limité le nombre de personnes qui ont accès à Digital Ocean, Mailchimp et AppCenter.',
       ]
     }, {
-      title: 'For how long does the organisation keep data??',
+      title: 'Pendant combien de temps l’organisation conserve-t-elle les données??',
       para: [
-        'IP addresses will be stored until the SAFE Network progresses to Beta Stage. This enables us to investigate any issues and trends that happen across our tests.',
-        'Email addresses will be stored until you choose to unsubscribe from our newsletter. Email addresses will be stored on a Google form for the period of 1 week',
+        'Les adresses IP seront stockées jusqu’à ce que le réseau SAFE passe à l’étape bêta. Cela nous permet d’enquêter sur tous les problèmes et tendances qui surviennent lors de nos tests.',
+        'Les adresses e-mail seront conservées jusqu’à ce que vous décidiez de vous désinscrire de notre newsletter. Les adresses e-mail seront stockées sur un formulaire Google pendant une période d’une semaine.',
       ]
     },
 	{
-      title: 'Your rights',
+      title: 'Vos droits',
       para: [
-        'As a data subject, you have a number of rights. You have:',
-        '- The right to be informed about Our collection and use of personal data;',
-        '- The right of access to the personal data we hold about you;',
-        '- The right to rectification if any personal data We hold about you is inaccurate or incomplete;',
-        '- The right to be forgotten – i.e. the right to ask Us to delete any personal data We hold about you;',
-        '- The right to restrict (i.e. prevent) the processing of your personal data;',
-        '- The right to data portability (obtaining a copy of your personal data to re-use with another service or organisation);',
-        '- The right to object to Us using your personal data for particular purposes; and',
-        '- Rights with respect to automated decision making and profiling.',
-        'If you would like to exercise any of these rights, please contact gdpr@maidsafe.net. If you believe that the organisation has not complied with your data protection rights, you can complain to the Information Commissioner.'
+        'En tant que personne concernée, vous disposez d’un certain nombre de droits. Vous avez:',
+        '- Le droit d’être informé de Notre collecte et utilisation des données personnelles;',
+        '- Le droit d’accès aux données personnelles que nous détenons à votre sujet;',
+        '- Le droit de rectification si les données personnelles que nous détenons à votre sujet sont inexactes ou incomplètes;',
+        '- Le droit à l’oubli - i.e. le droit de nous demander de supprimer toutes les données personnelles que nous détenons à votre sujet;',
+        '- Le droit de restreindre (c’est-à-dire d’empêcher) le traitement de vos données personnelles;',
+        '- Le droit à la portabilité des données (obtention d’une copie de vos données personnelles à réutiliser avec un autre service ou organisation);',
+        '- Le droit de nous opposer à l’utilisation de vos données personnelles à des fins particulières; et',
+        '- Droits concernant la prise de décision et le profilage automatisés.',
+        'Si vous souhaitez exercer l’un de ces droits, veuillez contacter gdpr@maidsafe.net. Si vous pensez que l’organisation n’a pas respecté vos droits en matière de protection des données, vous pouvez déposer une plainte auprès du Commissaire à l’information.'
       ]
     }, {
-      title: 'What if you do not provide personal data?',
+      title: 'Et si vous ne fournissez pas de données personnelles?',
       para: [
-        'You are under no statutory or contractual obligation to provide your IP address, however, if you do not provide us with this information you may not be able to fully use or test our suite of products.',
-        'You are under no statutory or contractual obligation to provide your email address, however, if you do not provide us with this information you will not be able to receive our newsletter or to test the browser on an iOS device.',
+        'Vous n’êtes soumis à aucune obligation légale ou contractuelle de fournir votre adresse IP, cependant, si vous ne nous fournissez pas ces informations, vous ne pourrez peut-être pas utiliser ou tester pleinement notre suite de produits.',
+        'Vous n’êtes soumis à aucune obligation légale ou contractuelle de fournir votre adresse e-mail, cependant, si vous ne nous fournissez pas ces informations, vous ne pourrez pas recevoir notre newsletter ou tester le navigateur sur un appareil iOS.',
       ]
     }, {
-      title: 'Automated decision-making',
+      title: 'Prise de décision automatisée',
       para: [
-        'There is no automated decision making',
+        'Il n’y a pas de prise de décision automatisée',
       ]
     }, {
-      title: "MaidSafe's Privacy Policy",
+      title: "Politique de confidentialité de MaidSafe",
       para: [
-        'To view MaidSafe’s privacy policy head over to the [privacy page](https://maidsafe.net/privacy) on maidsafe.net.',
+        'Pour consulter la politique de confidentialité de MaidSafe, rendez-vous sur la [page de confidentialité](https://maidsafe.net/privacy) de maidsafe.net.',
       ]
     },  {
-      title: 'How do I make a complaint?',
+      title: 'Comment faire une réclamation?',
       para: [
-        'You have the right to make a complaint about anything regarding processing, storage, or retention of your data. We would hope to resolve any complaint internally and if you would like to lodge a complaint with us in the first instance please contact gdpr@maidsafe.net. However, you also have the right to lodge a complaint at any time to the Information Commissioner (ICO) in respect of our processing of your personal data. Information can be found at [www.ico.org.uk.](https://www.ico.org.uk/)',
+        'Vous avez le droit de déposer une plainte concernant tout ce qui concerne le traitement, le stockage ou la conservation de vos données. Nous espérons pouvoir résoudre toute plainte en interne et si vous souhaitez déposer une plainte auprès de nous dans un premier temps, veuillez contacter gdpr@maidsafe.net. Cependant, vous avez également le droit de déposer une plainte à tout moment auprès du Commissaire à l’information (ICO) concernant notre traitement de vos données personnelles. Des informations peuvent être trouvées sur [www.ico.org.uk.](https://www.ico.org.uk/)',
       ]
     }
   ]
