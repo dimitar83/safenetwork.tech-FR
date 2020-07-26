@@ -1,14 +1,14 @@
 export default {
-  desc: 'The company that originally envisaged the SAFE Network, MaidSafe are driven by one overriding goal: to provide privacy, security and freedom for everyone on the planet.',
+  desc: 'L’entreprise qui envisageait à l’origine le réseau SAFE, MaidSafe, est guidée par un objectif primordial: assurer la confidentialité, la sécurité et la liberté pour tous sur la planète.',
   CTA: {
-    name: 'Contact MaidSafe',
+    name: 'Contactez MaidSafe',
     url: 'https://maidsafe.net/'
   },
   para: [
-    'In 2006, MaidSafe began work on a decentralised internet that is private, secure and free for everybody. Since those early days, the team, led by founder David Irvine, has been focused solely on building the SAFE Network to solve the problems of an increasingly centralised internet that is facing more issues with each day that passes.',
-    'MaidSafe are based in Ayr, Scotland but the team is distributed all across the globe. It has has drawn talents from many different cultures and countries, reflecting the users that they serve. Comprised of thinkers, inventors, tinkerers, PhDs, engineers and designers, they are building software that is [open source and free to use](https://github.com/maidsafe) and share in a single mission: a desire to provide security and privacy for everyone.',
+    'En 2006, MaidSafe a commencé à travailler sur un Internet décentralisé qui est privé, sécurisé et gratuit pour tout le monde. Depuis ces premiers jours, l’équipe, dirigée par le fondateur David Irvine, s’est concentrée uniquement sur la construction du réseau SAFE pour résoudre les problèmes d’un Internet de plus en plus centralisé qui fait face à plus de problèmes chaque jour qui passe.',
+    'MaidSafe est basé à Ayr, en Écosse, mais l’équipe est répartie dans le monde entier. Il a attiré des talents de nombreuses cultures et pays différents, reflétant les utilisateurs qu’ils servent.  Composés de penseurs, d’inventeurs, de bricoleurs, de docteurs, d’ingénieurs et de concepteurs, ils construisent des logiciels [open source et gratuits à utiliser](https://github.com/maidsafe) et à partager dans une seule mission: une volonté d’assurer la sécurité et la confidentialité de chacun.',
     'MaidSafe are guided and influenced by the SAFE Network Community who have helped to fund the work and guide its decisions through discussions across community-run platforms.',
-    'The SAFE Network is currently in Alpha Release stages. Upon full release, MaidSafe will be only one of many thousands of developers making a living by carrying out development on the Network as a result of the built-in incentivisation scheme.',
-    'To contact the team directly, visit the company website at [maidsafe.net](https://maidsafe.net/contact) for further details.'
+    'MaidSafe est guidé et influencé par la communauté du réseau SAFE qui a aidé à financer le travail et à guider ses décisions par le biais de discussions sur les plateformes gérées par la communauté.',
+    'Pour contacter directement l’équipe, visitez le site Web de la société à [maidsafe.net](https://maidsafe.net/contact) pour plus de détails.'
   ]
 }
