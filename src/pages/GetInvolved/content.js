@@ -1,18 +1,18 @@
 import CONSTANT from 'constant'
 
 export default {
-  title: 'It’s the dawn of a new web.\n Help us create it.',
-  pageDesc: 'The SAFE Network is an Open Source and collaborative effort between developers and the community using it. You can get involved by testing, suggesting, coding, or promoting. Here’s how.',
+  title: 'C’est l’aube d’un nouveau web.\n Aidez-nous à le créer.',
+  pageDesc: 'Le réseau SAFE est un Open Source (source ouverte) et un effort de collaboration entre les développeurs et la communauté qui l’utilise. Vous pouvez vous impliquer en testant, en suggérant, en codant ou en faisant la promotion. Voici comment.',
   develop: {
     trySafeNet: {
-      title: 'Try the SAFE Network',
+      title: 'Essayez le réseau SAFE',
       para: [
-        'SAFE will change how we’ll interact with the web and our own data. A leap as big as this requires continuous testing and feedback from the people who it is designed for—and that’s where you can help.',
-        'Download the SAFE Browser to browse the Network, or why not join the community and be one of many that provide feedback, contribute to code and essentially, help shape the Network.'
+        'SAFE changera la façon dont nous interagirons avec le Web et nos propres données. Un saut aussi grand que cela nécessite des tests et des commentaires continus de la part des personnes pour lesquelles il est conçu - et c’est là que vous pouvez aider.',
+        'Téléchargez le navigateur SAFE pour parcourir le réseau, ou pourquoi ne pas rejoindre la communauté et être l’un des nombreux à fournir des commentaires, à contribuer au code et, essentiellement, à façonner le réseau.'
       ]
     },
     startDevelop: {
-      title: 'Start Developing on SAFE',
+      title: 'Commencez à développer sur SAFE',
       para: [
         'The SAFE Network is a platform for creating decentralised apps. It is secure, privacy focussed, has a built-in revenue stream, and next to no infrastructure costs.',
         'Right now development of simpler, dev-facing APIs is underway. As such documentation is still to be finalised, but you can access the latest SAFE API documentation in this repo.'
@@ -23,81 +23,81 @@ export default {
       }
     },
     joinForum: {
-      title: 'Join the Developer Community',
+      title: 'Rejoignez la communauté des développeurs',
       para: [
-        'In addition to the developer hub, we also have a growing developer forum. It’s a great way to get support and collaborate.'
+        'En plus du hub des développeurs, nous avons également un forum de développeurs en pleine croissance. C’est un excellent moyen d’obtenir du soutien et de collaborer.'
       ],
       CTA: {
-        name: 'Developer Forum',
+        name: 'Forum des développeurs',
         url: 'https://forum.safedev.org'
       }
     },
     coreNetwork: {
-      title: 'Help Build the Core Network',
+      title: 'Aider à bâtir le réseau central',
       para: [
-        'You can also get involved by helping to maintain the Networks underlying open source libraries. As we reach beta launch it will be possible to be compensated in Safecoin for fixing bugs, optimising code and developing new features.'
+        'Vous pouvez également vous impliquer en aidant à maintenir les réseaux sous-jacents aux bibliothèques open source. À l’approche du lancement de la version bêta, il sera possible d’être compensé en Safecoin pour la correction des erreurs, l’optimisation du code et le développement de nouvelles fonctionnalités.'
       ],
       CTA: {
-        name: 'Contribute on GitHub',
+        name: 'Contribuer sur GitHub',
         url: 'https://github.com/maidsafe/'
       }
     }
   },
   engage: {
     community: {
-      title: 'Be part of the community',
+      title: 'Faites partie de la communauté',
       para: [
-        'The SAFE Network community is comprised of thousands of people from all over the world passionate about the unfettered access and sharing of data.',
-        'The SAFE Network Forum is the main discussion forum of this growing community and is a great place to help test new releases by the development teams, receive support, discuss the latest Internet trends and read the weekly dev updates. To meet others in person, take a look at the various meetups taking place around the world.'
+        'La communauté SAFE Network est composée de milliers de personnes du monde entier passionnées par l’accès et le partage sans entrave des données.',
+        'Safenetforum.org est le principal forum de discussion de cette communauté en pleine croissance et est un excellent endroit pour aider à tester les nouvelles versions par les équipes de développement, recevoir du soutien, discuter des dernières tendances Internet et lire les mises à jour hebdomadaires des développeurs. Pour rencontrer d’autres personnes en personne, jetez un œil aux différentes rencontres qui se déroulent dans le monde.'
       ],
       CTA: {
-        name: 'Join the Forum',
+        name: 'Rejoignez le Forum',
         url: 'https://safenetforum.org'
       }
     },
     subscribe: {
-      title: 'Stay Up-to-date'
+      title: 'Tiens-toi à jour'
     }
   },
   invite: {
-    title: 'Get Started',
+    title: 'COMMENCER',
     joinNetwork: {
       id: 'joinNetwork',
-      title: 'Connect to the Baby Fleming Public Shared Section',
-      para: 'This shared section is hosted on DigitalOcean and consists of eight vaults on eight separate droplets, all connected together in one section. Please note that this testnet may require to be taken down.',
+      title: 'Connecter à Baby Fleming Public Shared Section',
+      para: 'Cette section partagée est hébergée sur DigitalOcean et se compose de huit coffres-forts sur huit gouttelettes distinctes, tous connectés ensemble dans une section. Veuillez noter que ce testnet peut nécessiter d’être retiré.',
       CTA: {
         button: {
-          name: 'Learn more',
+          name: 'Apprendre encore plus',
           url: 'https://safenetforum.org/t/baby-fleming-public-shared-section/31377'
         },
         link: {
-          name: 'CLI User Guide',
+          name: 'CLI Guide de l’utilisateur',
           url: 'https://github.com/maidsafe/safe-api/blob/master/safe-cli/README.md#download'
         }
       }
     },
     installBrowser: {
       id: 'installBrowser',
-      title: 'Install the SAFE Browser',
-      para: 'Grab the latest SAFE Browser to start browsing the Network today!',
+      title: 'Installez le navigateur SAFE',
+      para: 'Prenez le dernier navigateur SAFE pour commencer à naviguer sur le réseau dès aujourd’hui!',
       CTA: {
         button: {
-          name: 'Download for',
+          name: 'Télécharger pour',
           url: '/'
         },
         link: {
-          name: 'More Options',
+          name: 'Plus d’options',
           url: CONSTANT.downloadApps.browser.others
         }
       }
     },
     feedback: {
       id: 'feedback',
-      title: 'Feedback & Contribute',
-      para: 'Building the SAFE Network is a team effort. You can help out by making suggestions, reporting bugs, or contributing code.',
+      title: 'Commentaires et contribution',
+      para: 'La construction du réseau SAFE est un travail d’équipe. Vous pouvez nous aider en faisant des suggestions, en signalant des erreurs ou en contribuant au code.',
       CTA: {
         button: {
-          name: 'Join the Forum',
+          name: 'Rejoignez le Forum',
           url: 'https://safenetforum.org'
         }
       }
@@ -106,27 +106,27 @@ export default {
   faqs: {
    sections: [
     {
-      title: 'Getting Started: Frequently Asked Questions',
+      title: 'Mise en route: questions fréquemment posées',
       items: [
         {
-          question: 'How do I get involved with the SAFE Network community?',
+          question: 'Comment m’impliquer dans la communauté SAFE Network?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners )',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'La communauté est la plus active sur le [forum du réseau SAFE](https://safenetforum.org/) et nous vous suggérons de commencer dans la [section débutants](https://safenetforum.org/c/beginners )',
+            '_[Visitez le Forum](https://safenetforum.org/)_'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Comment obtenir de l’aide?',
           answer: [
-            'The [SAFE Network Forum](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'Le [forum du réseau SAFE](https://safenetforum.org) est l’endroit où se diriger pour toutes les questions sur le réseau.',
+            '_[Visitez le Forum](https://safenetforum.org/)_'
           ]
         }
       ]
     },
    ],
    CTA: {
-     name: 'More FAQs',
+     name: 'Plus de FAQ',
      url: '/faq'
    }
   }
