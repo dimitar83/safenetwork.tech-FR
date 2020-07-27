@@ -1,8 +1,8 @@
 export default {
   initState: {
-    desc: 'Be first to get the latest news on all SAFE Network developments, updates and releases...',
+    desc: 'Soyez le premier à recevoir les dernières nouvelles sur tous les développements, mises à jour et versions de SAFE Network ......',
   },
   successState: {
-    desc: 'Nearly there! Confirm your subscription by clicking the link in the mail we just sent you',
+    desc: 'Presque là! Confirmez votre abonnement en cliquant sur le lien dans le mail que nous venons de vous envoyer',
   }
 }
