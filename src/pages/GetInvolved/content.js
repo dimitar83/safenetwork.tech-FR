@@ -14,8 +14,8 @@ export default {
     startDevelop: {
       title: 'Commencez à développer sur SAFE',
       para: [
-        'The SAFE Network is a platform for creating decentralised apps. It is secure, privacy focussed, has a built-in revenue stream, and next to no infrastructure costs.',
-        'Right now development of simpler, dev-facing APIs is underway. As such documentation is still to be finalised, but you can access the latest SAFE API documentation in this repo.'
+        'Le réseau SAFE est une plateforme de création d’applications décentralisées. Il est sécurisé, axé sur la confidentialité, a une source de revenus intégrée et pratiquement pas de coûts d’infrastructure.',
+        'Actuellement, le développement d’API plus simples destinées aux développeurs est en cours. En tant que la documentation doit encore être finalisée,  vous pouvez accéder à la dernière documentation de l’API SAFE dans ce dépôt.'
       ],
       CTA: {
         name: 'SAFE API GitHub Repo',
